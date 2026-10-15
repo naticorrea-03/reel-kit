@@ -1,0 +1,21 @@
+{
+ "said": "drop your clips in type one command and it sends back the edit",
+ "graphic": {
+  "type": "desktop-app-window",
+  "on": "drop your",
+  "app": "Studio",
+  "files": 5,
+  "command": "/edit",
+  "menu": [
+   "/summarize",
+   "/translate"
+  ],
+  "steps": [
+   "Cut the dead air",
+   "Add captions",
+   "Export 9:16"
+  ],
+  "output": "reel-final.mp4",
+  "status": "Ready, 0:42"
+ }
+}

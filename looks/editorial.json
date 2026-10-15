@@ -1,0 +1,65 @@
+{
+ "id": "editorial",
+ "name": "Editorial",
+ "summary": "Calm and premium. Warm grade, italic serif punch lines, word-pill captions, cream cards with soft shadows.",
+ "vars": {
+  "--c-text": "#F4EEE4",
+  "--c-accent": "#8B3A2B",
+  "--c-accent2": "#34506A",
+  "--c-ink": "#1B1612",
+  "--c-card": "#FFFFFF",
+  "--c-muted": "#8A8580",
+  "--c-soft": "#F2EEE8",
+  "--c-tint": "#F4E7E3",
+  "--c-shadow": "#1E0F0A",
+  "--c-behind": "var(--c-accent)",
+  "--c-on-accent": "var(--c-text)",
+  "--c-accent-ink": "var(--c-accent)",
+  "--c-frame": "var(--c-text)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Fraunces'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Caveat'",
+  "--f-mono": "'JetBrains Mono'",
+  "--serif-style": "italic",
+  "--serif-weight": "600",
+  "--serif-case": "none",
+  "--behind-weight": "900",
+  "--hook-case": "uppercase",
+  "--hook-small-font": "var(--f-serif)",
+  "--hook-small-style": "italic",
+  "--card-radius": "28px",
+  "--card-border": "6px",
+  "--card-shadow": "0 30px 80px rgba(30,15,10,.45)",
+  "--c-highlight": "color-mix(in srgb,var(--c-accent) 28%,transparent)"
+ },
+ "grade": "sepia(.10) saturate(1.04) contrast(1.0) brightness(1.03)",
+ "overlays": {
+  "warm": true,
+  "vignette": 0.3,
+  "grad": true
+ },
+ "captions": {
+  "style": "pill",
+  "font": "body",
+  "size": 58,
+  "case": "lower",
+  "words_per_cue": 3,
+  "max_chars": 16,
+  "top": 1250
+ },
+ "hook": {
+  "small": "serif-italic",
+  "big": "display-upper"
+ },
+ "punch": "scale",
+ "cut_punch": 1.05,
+ "default_effects": [
+  "serif",
+  "behind",
+  "logo",
+  "chat-prompt",
+  "note",
+  "stats"
+ ]
+}

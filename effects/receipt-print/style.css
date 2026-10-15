@@ -1,0 +1,12 @@
+.fx-receipt-print{position:relative}
+.fx-receipt-print .sl{position:absolute;left:0;right:0;top:0;height:40px;border-radius:14px;background:var(--c-accent2);box-shadow:var(--card-shadow);z-index:2}
+.fx-receipt-print .sl::after{content:'';position:absolute;left:30px;right:30px;bottom:10px;height:8px;border-radius:4px;background:color-mix(in srgb,var(--c-shadow) 85%,var(--c-accent2))}
+.fx-receipt-print .pp{position:absolute;top:30px;overflow:hidden;background:var(--c-card);color:var(--c-ink);box-sizing:border-box;padding:0 30px;font-family:var(--f-mono);
+  transform-origin:50% 0;filter:drop-shadow(0 14px 22px color-mix(in srgb,var(--c-shadow) 35%,transparent))}
+.fx-receipt-print .hd{display:flex;flex-direction:column;justify-content:flex-end;height:104px;line-height:1.2;padding-bottom:10px;box-sizing:border-box;border-bottom:3px dashed color-mix(in srgb,var(--c-ink) 35%,transparent);
+  font-size:34px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.fx-receipt-print .hd .mt{color:var(--c-muted)}
+.fx-receipt-print .ln{margin-top:18px;font-weight:600;line-height:1.25;letter-spacing:.02em}
+.fx-receipt-print .ln:first-of-type{margin-top:22px}
+.fx-receipt-print .tot{display:flex;justify-content:space-between;margin-top:18px;padding-top:12px;border-top:3px dashed color-mix(in srgb,var(--c-ink) 35%,transparent);
+  font-size:32px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}

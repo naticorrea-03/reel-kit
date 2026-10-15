@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9d3b0"/><stop offset="1" stop-color="#2f6b4f"/></linearGradient></defs>
+<rect width="1200" height="750" fill="#f1f3ee"/>
+<circle cx="96" cy="47" r="16" fill="#2f6b4f"/><text x="124" y="57" font-family="Helvetica,Arial,sans-serif" font-weight="700" font-size="26" fill="#20251f">Atlas Form</text>
+<rect x="760" y="40" width="70" height="14" rx="7" fill="#20251f" opacity=".35"/><rect x="855" y="40" width="70" height="14" rx="7" fill="#20251f" opacity=".35"/><rect x="950" y="40" width="70" height="14" rx="7" fill="#20251f" opacity=".35"/><rect x="1045" y="40" width="70" height="14" rx="7" fill="#20251f" opacity=".35"/>
+<text x="80" y="230" font-family="Georgia,serif" font-size="64" fill="#20251f">Shapes for serious work.</text>
+<text x="82" y="290" font-family="Helvetica,Arial,sans-serif" font-size="28" fill="#20251f" opacity=".6">Type, grid, and colour, tuned</text>
+<rect x="80" y="335" width="200" height="60" rx="30" fill="#2f6b4f"/><rect x="300" y="335" width="160" height="60" rx="30" fill="none" stroke="#20251f" stroke-opacity=".4" stroke-width="2"/>
+<rect x="700" y="130" width="420" height="380" rx="28" fill="url(#g)"/>
+<circle cx="910" cy="320" r="110" fill="#f1f3ee" opacity=".25"/>
+<rect x="80" y="560" width="320" height="150" rx="18" fill="#20251f" opacity=".07"/><rect x="110" y="595" width="160" height="16" rx="8" fill="#20251f" opacity=".5"/><rect x="110" y="630" width="230" height="12" rx="6" fill="#20251f" opacity=".25"/><rect x="440" y="560" width="320" height="150" rx="18" fill="#20251f" opacity=".07"/><rect x="470" y="595" width="160" height="16" rx="8" fill="#20251f" opacity=".5"/><rect x="470" y="630" width="230" height="12" rx="6" fill="#20251f" opacity=".25"/><rect x="800" y="560" width="320" height="150" rx="18" fill="#20251f" opacity=".07"/><rect x="830" y="595" width="160" height="16" rx="8" fill="#20251f" opacity=".5"/><rect x="830" y="630" width="230" height="12" rx="6" fill="#20251f" opacity=".25"/>
+</svg>

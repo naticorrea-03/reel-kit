@@ -1,0 +1,16 @@
+.fx-before-after-wipe{position:absolute;inset:0;pointer-events:none}
+.fx-before-after-wipe .raw{position:absolute;left:0;top:0;height:1920px;-webkit-backdrop-filter:var(--raw);backdrop-filter:var(--raw)}
+.fx-before-after-wipe .line{position:absolute;left:0;top:0;width:0;height:1920px;border-left:4px solid var(--c-text);margin-left:-2px;
+  filter:drop-shadow(0 0 10px color-mix(in srgb,var(--c-shadow) 60%,transparent))}
+.fx-before-after-wipe .knob{position:absolute;left:-36px;width:68px;height:68px;border-radius:50%;background:var(--c-text);
+  box-shadow:0 8px 24px color-mix(in srgb,var(--c-shadow) 55%,transparent)}
+.fx-before-after-wipe .knob svg{position:absolute;left:14px;top:14px;width:40px;height:40px}
+.fx-before-after-wipe .knob path{fill:none;stroke:var(--c-ink);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.fx-before-after-wipe .pill{position:absolute;height:64px;padding:0 26px;border-radius:32px;display:flex;align-items:center;
+  font-family:var(--f-body);font-weight:600;font-size:32px;letter-spacing:.2px}
+.fx-before-after-wipe .pill.before{left:110px;background:color-mix(in srgb,var(--c-ink) 62%,transparent);color:var(--c-text);
+  border:2px solid color-mix(in srgb,var(--c-text) 35%,transparent)}
+.fx-before-after-wipe .pill.after{right:110px;background:var(--c-accent);color:var(--c-on-accent)}
+.fx-before-after-wipe .word{position:absolute;left:0;right:0;text-align:center;font-family:var(--f-display);font-weight:900;line-height:1;
+  letter-spacing:-.04em;color:var(--c-text);text-shadow:0 10px 40px color-mix(in srgb,var(--c-shadow) 55%,transparent)}
+.fx-before-after-wipe .word.ink{color:var(--c-ink);text-shadow:0 6px 30px color-mix(in srgb,var(--c-text) 50%,transparent)}

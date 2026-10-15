@@ -1,0 +1,8 @@
+.fx-words3{position:relative}
+.fx-words3 .fx-words3-scrim{position:absolute;left:-90px;right:-110px;top:-70px;bottom:-90px;pointer-events:none;
+  background:radial-gradient(ellipse 62% 58% at 50% 55%,color-mix(in srgb,var(--c-shadow) 82%,transparent),color-mix(in srgb,var(--c-shadow) 50%,transparent) 55%,transparent)}
+.fx-words3 .w3{position:relative;display:flex;justify-content:center;gap:.24em}
+.fx-words3 .w3w{display:inline-block;font-family:var(--f-serif);font-style:var(--serif-style);font-weight:var(--serif-weight);text-transform:var(--serif-case);font-size:1em;white-space:nowrap;color:var(--c-text);
+  font-variation-settings:"opsz" 72,"SOFT" 80;text-shadow:0 4px 30px color-mix(in srgb,var(--c-shadow) 85%,transparent),0 2px 6px color-mix(in srgb,var(--c-shadow) 75%,transparent)}
+.fx-words3.on-light .fx-words3-scrim{display:none}
+.fx-words3.on-light .w3w{color:var(--c-ink);text-shadow:0 2px 22px color-mix(in srgb,var(--c-card) 75%,transparent)}

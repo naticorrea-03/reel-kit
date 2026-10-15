@@ -1,0 +1,7 @@
+.fx-iris-card{position:absolute;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;color:var(--c-text);text-align:center}
+.fx-iris-card .tc{display:flex;align-items:center;height:34px;margin-bottom:26px}
+.fx-iris-card .tc text{font-family:var(--f-mono);font-weight:600;font-size:30px;fill:color-mix(in srgb,var(--c-text) 70%,transparent)}
+.fx-iris-card .ln{overflow:visible;line-height:1.08}
+.fx-iris-card .ln span{display:inline-block;font-family:var(--f-serif);font-weight:400;text-transform:uppercase;letter-spacing:.02em}
+.fx-iris-card .ln.it span{font-style:italic;text-transform:none;letter-spacing:0;color:color-mix(in srgb,var(--c-accent) 35%,var(--c-text))}
+.fx-iris-card .ru{display:block;width:120px;height:3px;margin-top:20px;background:color-mix(in srgb,var(--c-text) 60%,transparent);transform-origin:50% 50%}

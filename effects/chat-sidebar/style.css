@@ -1,0 +1,9 @@
+.fx-chat-sidebar{display:flex;padding:0;overflow:hidden}
+.fx-chat-sidebar .sb{width:340px;flex-shrink:0;background:var(--c-soft);padding:26px 16px}
+.fx-chat-sidebar .sb-h{font-family:var(--f-body);font-weight:600;font-size:30px;color:var(--c-muted);text-transform:uppercase;letter-spacing:2px;margin:4px 10px 14px}
+.fx-chat-sidebar .sb-i{position:relative;font-family:var(--f-body);font-weight:500;font-size:33px;padding:12px 14px;border-radius:14px;margin-bottom:6px;color:var(--c-ink)}
+.fx-chat-sidebar .sb-i .hl{position:absolute;inset:0;border-radius:14px;background:var(--c-accent);opacity:0}
+.fx-chat-sidebar .sb-i span{position:relative}
+.fx-chat-sidebar .sb-i.lit span{color:var(--c-on-accent)}
+.fx-chat-sidebar .main{flex:1;min-width:0;padding:26px 26px 30px}
+.fx-chat-sidebar .main .rk-bub{max-width:100%}

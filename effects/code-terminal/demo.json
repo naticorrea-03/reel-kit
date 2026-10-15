@@ -1,0 +1,1 @@
+{"said": "I just ran one command and the whole site was up in a minute", "graphic": {"type": "code-terminal", "on": "ran one command", "command": "npx create-site my-shop", "output": ["Installed 214 packages in 9s", "Live at my-shop.vercel.app"], "title": "zsh", "hold": 1.0}}

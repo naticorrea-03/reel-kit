@@ -1,0 +1,14 @@
+.fx-flip-clock{box-sizing:border-box;padding:22px;border-radius:26px;background:var(--c-accent2);box-shadow:var(--card-shadow);
+  display:flex;flex-direction:column;align-items:center;transform-origin:50% 0}
+.fx-flip-clock .row{display:flex;align-items:center;gap:10px}
+.fx-flip-clock .dg{position:relative;width:96px;height:140px;perspective:420px;border-radius:12px;background:color-mix(in srgb,var(--c-ink) 88%,var(--c-accent2))}
+.fx-flip-clock .f{position:absolute;inset:0}
+.fx-flip-clock .h{position:absolute;left:0;right:0;height:50%;overflow:hidden;background:color-mix(in srgb,var(--c-ink) 88%,var(--c-accent2));backface-visibility:hidden}
+.fx-flip-clock .h.t{top:0;border-radius:12px 12px 0 0;transform-origin:50% 100%}
+.fx-flip-clock .h.b{top:50%;border-radius:0 0 12px 12px;transform-origin:50% 0}
+.fx-flip-clock .h.b svg{position:absolute;top:-70px;left:0}
+.fx-flip-clock svg text{font-family:var(--f-display);font-weight:800;font-size:112px;fill:var(--c-text)}
+.fx-flip-clock .ax{position:absolute;left:0;right:0;top:69px;height:2px;background:color-mix(in srgb,var(--c-shadow) 80%,transparent);z-index:200}
+.fx-flip-clock .cl{display:flex;flex-direction:column;gap:22px;padding:0 6px}
+.fx-flip-clock .cl b{width:14px;height:14px;border-radius:50%;background:var(--c-text)}
+.fx-flip-clock .lb{margin-top:12px;font-family:var(--f-body);font-weight:600;color:var(--c-text);letter-spacing:.02em;line-height:1.3}

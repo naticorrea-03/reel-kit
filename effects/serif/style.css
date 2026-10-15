@@ -1,0 +1,13 @@
+.fx-serif{position:relative}
+.fx-serif .fx-serif-scrim{position:absolute;left:-90px;right:-110px;top:-70px;bottom:-90px;pointer-events:none;
+  background:radial-gradient(ellipse 62% 58% at 50% 55%,color-mix(in srgb,var(--c-shadow) 82%,transparent),color-mix(in srgb,var(--c-shadow) 50%,transparent) 55%,transparent)}
+.fx-serif .sv-s,.fx-serif .sv-b{position:relative;text-align:center;color:var(--c-text);
+  text-shadow:0 4px 30px color-mix(in srgb,var(--c-shadow) 85%,transparent),0 2px 6px color-mix(in srgb,var(--c-shadow) 75%,transparent),0 0 2px color-mix(in srgb,var(--c-shadow) 60%,transparent)}
+.fx-serif .sv-s{font-family:var(--f-body);font-weight:500;font-size:54px;letter-spacing:-1px}
+.fx-serif .sv-b{font-family:var(--f-serif);font-style:var(--serif-style);font-weight:var(--serif-weight);text-transform:var(--serif-case);font-size:132px;line-height:1;letter-spacing:-2px;
+  font-variation-settings:"opsz" 72,"SOFT" 80}
+.fx-serif .sw{display:inline-block}
+.fx-serif .sv-s .sw:not(:last-child){margin-right:.26em}
+.fx-serif .sv-b .sw:not(:last-child){margin-right:.2em}
+.fx-serif.on-light .fx-serif-scrim{display:none}
+.fx-serif.on-light .sv-s,.fx-serif.on-light .sv-b{color:var(--c-ink);text-shadow:0 2px 22px color-mix(in srgb,var(--c-card) 75%,transparent)}

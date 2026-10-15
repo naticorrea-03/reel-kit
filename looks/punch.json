@@ -1,0 +1,65 @@
+{
+ "id": "punch",
+ "name": "Punch",
+ "summary": "Kinetic. Huge heavy words behind the head, high-contrast grade, big bold one-to-two word caption stacks, hard cut punches.",
+ "vars": {
+  "--c-text": "#FFFFFF",
+  "--c-accent": "#FF4A1C",
+  "--c-accent2": "#1F57FF",
+  "--c-ink": "#0B0B0B",
+  "--c-card": "#FFFFFF",
+  "--c-muted": "#7A7A7A",
+  "--c-soft": "#EFEFEF",
+  "--c-tint": "#FFE6DE",
+  "--c-shadow": "#000000",
+  "--c-behind": "var(--c-accent)",
+  "--c-on-accent": "#FFFFFF",
+  "--c-accent-ink": "var(--c-accent)",
+  "--c-frame": "var(--c-ink)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Inter Tight'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Caveat'",
+  "--f-mono": "'JetBrains Mono'",
+  "--serif-style": "normal",
+  "--serif-weight": "900",
+  "--serif-case": "uppercase",
+  "--behind-weight": "900",
+  "--hook-case": "uppercase",
+  "--hook-small-font": "var(--f-display)",
+  "--hook-small-style": "normal",
+  "--card-radius": "18px",
+  "--card-border": "0px",
+  "--card-shadow": "0 18px 0 rgba(0,0,0,.35)",
+  "--c-highlight": "rgba(255,212,0,.45)"
+ },
+ "grade": "contrast(1.14) saturate(1.12) brightness(1.01)",
+ "overlays": {
+  "warm": false,
+  "vignette": 0.4,
+  "grad": true
+ },
+ "captions": {
+  "style": "stack",
+  "font": "display",
+  "size": 96,
+  "case": "upper",
+  "words_per_cue": 2,
+  "max_chars": 12,
+  "top": 1220,
+  "max_words": 2
+ },
+ "hook": {
+  "small": "display-upper",
+  "big": "display-upper"
+ },
+ "punch": "scale",
+ "cut_punch": 1.09,
+ "default_effects": [
+  "behind",
+  "words3",
+  "logo",
+  "stats",
+  "chat-prompt"
+ ]
+}

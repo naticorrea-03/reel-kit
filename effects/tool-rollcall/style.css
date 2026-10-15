@@ -1,0 +1,22 @@
+.fx-tool-rollcall{position:relative}
+.fx-tool-rollcall .pills{position:absolute;left:0;right:0;top:0;height:84px}
+.fx-tool-rollcall .pl{position:absolute;left:50%;top:0;transform:translateX(-50%);height:84px;box-sizing:border-box;display:flex;align-items:center;gap:16px;
+  padding:0 30px 0 12px;border-radius:999px;background:var(--c-card);box-shadow:var(--card-shadow);white-space:nowrap}
+.fx-tool-rollcall .lg{width:60px;height:60px;border-radius:18px;overflow:hidden;display:flex}
+.fx-tool-rollcall .lg img{width:100%;height:100%;object-fit:cover}
+.fx-tool-rollcall .lt{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--f-display);font-weight:800;font-size:38px;
+  color:var(--c-text);line-height:1}
+.fx-tool-rollcall .nm{font-family:var(--f-display);font-weight:700;font-size:44px;color:var(--c-ink);line-height:1.2}
+.fx-tool-rollcall .win{position:absolute;left:0;right:0;border-radius:var(--card-radius);overflow:hidden;background:var(--c-card);box-shadow:var(--card-shadow)}
+.fx-tool-rollcall .bar{position:relative;height:66px;display:flex;align-items:center;gap:20px;padding:0 20px;background:color-mix(in srgb,var(--c-card) 88%,var(--c-ink))}
+.fx-tool-rollcall .dots{display:flex;gap:8px}
+.fx-tool-rollcall .dots i{width:14px;height:14px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 30%,transparent)}
+.fx-tool-rollcall .addr{position:relative;flex:1;height:52px;border-radius:999px;background:var(--c-card)}
+.fx-tool-rollcall .u{position:absolute;left:0;right:0;top:3px;text-align:center;font-family:var(--f-mono);font-size:40px;line-height:46px;color:var(--c-muted);white-space:nowrap}
+.fx-tool-rollcall .vp{position:relative;overflow:hidden}
+.fx-tool-rollcall .sh{position:absolute;inset:0;background-size:cover;background-position:top center}
+.fx-tool-rollcall.big .pills{height:116px}
+.fx-tool-rollcall.big .pl{height:116px;gap:22px;padding:0 42px 0 16px}
+.fx-tool-rollcall.big .lg{width:84px;height:84px;border-radius:24px}
+.fx-tool-rollcall.big .lt{font-size:52px}
+.fx-tool-rollcall.big .nm{font-size:62px}

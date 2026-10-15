@@ -1,0 +1,9 @@
+.fx-poll-sticker{background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);box-shadow:var(--card-shadow);padding:36px;font-family:var(--f-body)}
+.fx-poll-sticker .q{font-family:var(--f-display);font-weight:800;line-height:1.2;letter-spacing:-.5px;text-align:center;margin-bottom:26px}
+.fx-poll-sticker .opt{position:relative;display:flex;align-items:center;justify-content:space-between;height:88px;border-radius:44px;
+  background:var(--c-soft);padding:0 26px;margin-top:16px;overflow:hidden}
+.fx-poll-sticker .opt:nth-of-type(2){margin-top:0}
+.fx-poll-sticker .fill{position:absolute;left:0;top:0;bottom:0;width:100%;transform-origin:0 50%;background:color-mix(in srgb,var(--c-muted) 30%,var(--c-soft))}
+.fx-poll-sticker .opt.win .fill{background:color-mix(in srgb,var(--c-accent) 38%,var(--c-card))}
+.fx-poll-sticker .lab{position:relative;font-weight:600;line-height:1.2;white-space:nowrap}
+.fx-poll-sticker .pc{position:relative;font-family:var(--f-display);font-weight:800;font-size:34px;line-height:1.2}

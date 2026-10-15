@@ -1,0 +1,87 @@
+{
+ "id": "masthead",
+ "name": "Masthead",
+ "summary": "Magazine cover. A giant condensed serif title tucked behind the head, a tracked caps kicker, muted olive grade, small serif captions on a forest plate that fill in as they are spoken.",
+ "vars": {
+  "--c-text": "#F1EADB",
+  "--c-accent": "#2E4A38",
+  "--c-accent2": "#9C7A48",
+  "--c-ink": "#17211A",
+  "--c-card": "#F4EFE4",
+  "--c-muted": "#7E847B",
+  "--c-soft": "#E9E4D8",
+  "--c-tint": "#E2E7DC",
+  "--c-shadow": "#0D140F",
+  "--c-behind": "var(--c-accent)",
+  "--c-on-accent": "var(--c-text)",
+  "--c-accent-ink": "var(--c-accent)",
+  "--c-frame": "var(--c-card)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Noto Serif Display'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Caveat'",
+  "--f-mono": "'JetBrains Mono'",
+  "--f-title": "'Noto Serif Display'",
+  "--title-stretch": "62.5%",
+  "--title-stretch-small": "82%",
+  "--title-weight": "500",
+  "--serif-style": "italic",
+  "--serif-weight": "400",
+  "--serif-case": "none",
+  "--behind-weight": "500",
+  "--hook-case": "uppercase",
+  "--hook-small-font": "var(--f-title)",
+  "--hook-small-style": "normal",
+  "--cap-box-bg": "#22392B",
+  "--cap-box-ink": "#F1EADB",
+  "--cap-box-on": "#F1EADB",
+  "--cap-box-dim": "#8FA090",
+  "--cap-box-font": "var(--f-title)",
+  "--cap-box-weight": "400",
+  "--cap-box-radius": "3px",
+  "--cap-box-shadow": "none",
+  "--cap-box-tracking": "-.005em",
+  "--card-radius": "6px",
+  "--card-border": "1px",
+  "--card-shadow": "0 18px 50px rgba(10,18,12,.35)",
+  "--c-highlight": "rgba(214,196,140,.5)"
+ },
+ "grade": "sepia(.16) hue-rotate(16deg) saturate(.7) contrast(1.06) brightness(.95)",
+ "overlays": {
+  "warm": false,
+  "tint": {
+   "color": "#56654A",
+   "opacity": 0.18,
+   "blend": "soft-light"
+  },
+  "vignette": 0.34,
+  "grad": 0.42
+ },
+ "captions": {
+  "style": "box",
+  "size": 44,
+  "case": "as-is",
+  "words_per_cue": 4,
+  "max_chars": 22,
+  "top": 1250,
+  "fill": true
+ },
+ "hook": {
+  "style": "masthead",
+  "small": "title",
+  "big": "title"
+ },
+ "punch": "push",
+ "cut_punch": 1.04,
+ "css": [
+  ".fx-behind{font-family:var(--f-title);font-stretch:62.5%;letter-spacing:-.01em}",
+  ".fx-serif .sv-s{font-family:var(--f-display);font-weight:700;font-size:30px;letter-spacing:.32em;text-transform:uppercase;margin-bottom:10px}",
+  ".fx-serif .sv-b{font-stretch:78%;letter-spacing:-.01em}"
+ ],
+ "default_effects": [
+  "behind",
+  "serif",
+  "title",
+  "popup-comment"
+ ]
+}

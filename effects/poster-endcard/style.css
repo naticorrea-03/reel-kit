@@ -1,0 +1,9 @@
+.fx-poster-endcard{position:absolute;inset:0}
+.fx-poster-endcard .circ{position:absolute;display:block;border-radius:50%}
+.fx-poster-endcard .lines{position:absolute;color:#F7F2EA;font-family:var(--f-display);font-weight:900;letter-spacing:-.01em;text-shadow:0 6px 30px rgba(0,0,0,.35)}
+.fx-poster-endcard .ln{line-height:1;white-space:nowrap}
+.fx-poster-endcard .wd{display:inline-block}
+.fx-poster-endcard .btn{position:absolute;height:76px;padding:0 44px;border-radius:16px;background:#3B82F6;display:flex;align-items:center;transform-origin:0 50%}
+.fx-poster-endcard .btn span{color:#fff;font-family:var(--f-display);font-weight:700;font-size:38px}
+.fx-poster-tag .nm{display:inline-block;background:var(--c-accent);color:#fff;font-family:var(--f-display);font-weight:800;font-size:40px;letter-spacing:.06em;padding:12px 24px;line-height:1.25}
+.fx-poster-tag .hd{display:table;margin-top:6px;background:#16110E;color:#F7F2EA;font-family:var(--f-body);font-weight:500;font-size:30px;padding:6px 16px;line-height:1.25}

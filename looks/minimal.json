@@ -1,0 +1,63 @@
+{
+ "id": "minimal",
+ "name": "Minimal",
+ "summary": "Documentary. Neutral grade, small clean lower captions, thin-rule cards, slow push-ins, almost no decoration.",
+ "vars": {
+  "--c-text": "#FFFFFF",
+  "--c-accent": "#E6DFD3",
+  "--c-accent2": "#3F4A55",
+  "--c-ink": "#141414",
+  "--c-card": "#FFFFFF",
+  "--c-muted": "#8C8C8C",
+  "--c-soft": "#F3F3F1",
+  "--c-tint": "#EEEDEA",
+  "--c-shadow": "#000000",
+  "--c-behind": "var(--c-accent2)",
+  "--c-on-accent": "var(--c-ink)",
+  "--c-accent-ink": "var(--c-ink)",
+  "--c-frame": "rgba(0,0,0,.10)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Fraunces'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Fraunces'",
+  "--f-mono": "'JetBrains Mono'",
+  "--serif-style": "normal",
+  "--serif-weight": "400",
+  "--serif-case": "none",
+  "--behind-weight": "500",
+  "--hook-case": "none",
+  "--hook-small-font": "var(--f-body)",
+  "--hook-small-style": "normal",
+  "--card-radius": "12px",
+  "--card-border": "1px",
+  "--card-shadow": "0 10px 30px rgba(0,0,0,.18)",
+  "--c-highlight": "rgba(240,214,90,.45)"
+ },
+ "grade": "saturate(.94) contrast(1.02) brightness(1.0)",
+ "overlays": {
+  "warm": false,
+  "vignette": 0.12,
+  "grad": true
+ },
+ "captions": {
+  "style": "clean",
+  "font": "body",
+  "size": 44,
+  "case": "as-is",
+  "words_per_cue": 5,
+  "max_chars": 28,
+  "top": 1330
+ },
+ "hook": {
+  "small": "body",
+  "big": "serif"
+ },
+ "punch": "push",
+ "cut_punch": 1.03,
+ "default_effects": [
+  "serif",
+  "logo",
+  "screenshot",
+  "stats"
+ ]
+}

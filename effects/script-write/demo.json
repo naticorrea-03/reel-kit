@@ -1,0 +1,1 @@
+{"said": "it does not sound like a random robotic voice, it keeps my tone and delivery, honestly", "graphic": {"type": "script-write", "on": "not sound", "lines": [{"text": "no robot voice", "tick": "cross"}, {"text": "keeps tone + delivery", "tick": "check", "on": "it keeps"}]}}

@@ -1,0 +1,3 @@
+.fx-logo{background:var(--c-card);border-radius:var(--card-radius);padding:30px 34px;border:5px solid var(--c-frame);
+  box-shadow:0 26px 60px rgba(0,0,0,.4),0 6px 16px rgba(0,0,0,.25)}
+.fx-logo .lg-word{font-family:var(--f-display);font-weight:900;color:var(--c-ink)}

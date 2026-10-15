@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1900" width="600" height="1900">
+<rect width="600" height="1900" fill="#FFFFFF"/>
+<rect width="600" height="120" fill="#FFFFFF"/><text x="32" y="86" font-family="Helvetica, Arial" font-weight="700" font-size="40" fill="#141414">Feed</text>
+<line x1="0" y1="120" x2="600" y2="120" stroke="#E5E5E5" stroke-width="2"/>
+<circle cx="64" cy="184" r="30" fill="#E9E4DC"/>
+<text x="112" y="180" font-family="Helvetica, Arial" font-weight="700" font-size="26" fill="#141414">Studio Notes</text>
+<text x="112" y="212" font-family="Helvetica, Arial" font-size="22" fill="#8A8A8A">2h ago</text>
+<rect x="32" y="242" width="406" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="274" width="481" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="306" width="502" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="344" width="536" height="220" rx="18" fill="#D9E2E8"/>
+<line x1="0" y1="596" x2="600" y2="596" stroke="#EEEEEE" stroke-width="2"/>
+<circle cx="64" cy="654" r="30" fill="#D9E2E8"/>
+<text x="112" y="650" font-family="Helvetica, Arial" font-weight="700" font-size="26" fill="#141414">Field Report</text>
+<text x="112" y="682" font-family="Helvetica, Arial" font-size="22" fill="#8A8A8A">3h ago</text>
+<rect x="32" y="712" width="397" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="744" width="385" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="782" width="536" height="220" rx="18" fill="#E8DCD9"/>
+<line x1="0" y1="1034" x2="600" y2="1034" stroke="#EEEEEE" stroke-width="2"/>
+<circle cx="64" cy="1092" r="30" fill="#E8DCD9"/>
+<text x="112" y="1088" font-family="Helvetica, Arial" font-weight="700" font-size="26" fill="#141414">Weekly Brief</text>
+<text x="112" y="1120" font-family="Helvetica, Arial" font-size="22" fill="#8A8A8A">4h ago</text>
+<rect x="32" y="1150" width="395" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="1182" width="436" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="1214" width="513" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="1252" width="536" height="280" rx="18" fill="#DDE6DA"/>
+<line x1="0" y1="1564" x2="600" y2="1564" stroke="#EEEEEE" stroke-width="2"/>
+<circle cx="64" cy="1622" r="30" fill="#DDE6DA"/>
+<text x="112" y="1618" font-family="Helvetica, Arial" font-weight="700" font-size="26" fill="#141414">Team Journal</text>
+<text x="112" y="1650" font-family="Helvetica, Arial" font-size="22" fill="#8A8A8A">5h ago</text>
+<rect x="32" y="1680" width="450" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="1712" width="424" height="18" rx="9" fill="#D6D6D6"/>
+<rect x="32" y="1744" width="407" height="18" rx="9" fill="#D6D6D6"/>
+<line x1="0" y1="1802" x2="600" y2="1802" stroke="#EEEEEE" stroke-width="2"/>
+</svg>

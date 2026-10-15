@@ -1,0 +1,4 @@
+{"said": "pick Thursday, pick the eight fifteen class, then hit book and you are in", "graphic": {"type": "ui-tap-sequence", "on": "pick Thursday", "src": "booking.svg", "hold": 1.2,
+ "taps": [{"on": "Thursday", "x": 0.685, "y": 0.239, "w": 0.157, "h": 0.097},
+          {"on": "eight fifteen", "x": 0.5, "y": 0.508, "w": 0.867, "h": 0.113},
+          {"on": "book", "x": 0.5, "y": 0.913, "w": 0.867, "h": 0.084}]}}

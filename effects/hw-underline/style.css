@@ -1,0 +1,4 @@
+.fx-hw-underline{position:absolute;inset:0}
+.fx-hw-underline .arr path{fill:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 5px color-mix(in srgb,var(--c-shadow) 45%,transparent))}
+.fx-hw-underline .lab{position:absolute;font-family:var(--f-script);font-weight:700;line-height:1.1;text-align:center;white-space:nowrap;
+  text-shadow:0 2px 8px color-mix(in srgb,var(--c-shadow) 35%,transparent)}

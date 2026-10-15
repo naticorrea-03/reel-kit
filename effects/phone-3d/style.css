@@ -1,0 +1,26 @@
+.fx-phone-3d{position:relative}
+.fx-phone-3d .ph3{position:absolute;width:330px;height:680px;will-change:transform,opacity}
+.fx-phone-3d .bz{position:absolute;inset:0;border-radius:58px;padding:13px;background:linear-gradient(145deg,color-mix(in srgb,var(--c-ink) 78%,var(--c-text)),var(--c-ink) 40%);
+  box-shadow:0 40px 90px color-mix(in srgb,var(--c-shadow) 55%,transparent),inset 0 0 0 2px color-mix(in srgb,var(--c-text) 22%,transparent)}
+.fx-phone-3d .sc{position:relative;width:100%;height:100%;border-radius:46px;overflow:hidden;background:var(--c-soft)}
+.fx-phone-3d .shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fx-phone-3d .isl{position:absolute;left:50%;top:26px;width:96px;height:28px;margin-left:-48px;border-radius:14px;background:var(--c-ink)}
+.fx-phone-3d .bt{position:absolute;width:5px;border-radius:3px;background:color-mix(in srgb,var(--c-ink) 85%,var(--c-text))}
+.fx-phone-3d .b1{left:-4px;top:150px;height:56px} .fx-phone-3d .b2{left:-4px;top:220px;height:56px} .fx-phone-3d .b3{right:-4px;top:180px;height:90px}
+.fx-phone-3d .app{position:absolute;inset:0;padding:66px 18px 0;font-family:var(--f-body);color:var(--c-ink)}
+.fx-phone-3d .st{position:absolute;left:30px;right:30px;top:18px;display:flex;justify-content:space-between;font-family:var(--f-body);font-weight:600;font-size:30px}
+.fx-phone-3d .st .an{display:none}
+.fx-phone-3d .h1{font-family:var(--f-display);font-weight:800;font-size:40px;letter-spacing:-.03em;line-height:1.1;margin:12px 8px 18px;height:96px}
+.fx-phone-3d .row{position:relative;display:flex;align-items:center;gap:12px;height:92px;margin-bottom:12px;padding:0 14px;border-radius:22px;background:var(--c-card);
+  box-shadow:0 6px 16px color-mix(in srgb,var(--c-shadow) 10%,transparent)}
+.fx-phone-3d .ic{flex:none;width:40px;height:40px;border-radius:14px;background:linear-gradient(150deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 60%,var(--c-ink)))}
+.fx-phone-3d .r1 .ic,.fx-phone-3d .k1 .ic{background:linear-gradient(150deg,var(--c-accent2),color-mix(in srgb,var(--c-accent2) 60%,var(--c-ink)))}
+.fx-phone-3d .rt{min-width:0}
+.fx-phone-3d .t1{font-family:var(--f-display);font-weight:700;font-size:28px;line-height:1.1;letter-spacing:-.02em;white-space:nowrap}
+.fx-phone-3d .t2{font-family:var(--f-body);font-weight:500;font-size:28px;line-height:1.15;color:var(--c-muted);white-space:nowrap}
+.fx-phone-3d .ph{position:absolute;left:14px;right:14px;top:14px;bottom:14px;border-radius:16px;border:3px dashed color-mix(in srgb,var(--c-muted) 45%,transparent);opacity:0}
+.fx-phone-3d .bo{position:absolute;display:flex;align-items:center;gap:18px;padding:22px 24px;border-radius:28px;background:var(--c-card);color:var(--c-ink);
+  border:calc(var(--card-border) * .5) solid var(--c-frame);box-shadow:0 34px 70px color-mix(in srgb,var(--c-shadow) 45%,transparent);will-change:transform,opacity}
+.fx-phone-3d .bo .ic{width:58px;height:58px;border-radius:18px}
+.fx-phone-3d .bo .t1{white-space:normal;line-height:1.05}
+.fx-phone-3d .bo .t2{white-space:normal;margin-top:4px;font-size:28px}

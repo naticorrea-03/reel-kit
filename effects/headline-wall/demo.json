@@ -1,0 +1,29 @@
+{
+ "said": "everyone is talking about doing this with AI right now",
+ "graphic": {
+  "type": "headline-wall",
+  "on": "everyone is talking",
+  "tiles": [
+   {
+    "title": "AI video tools hit the mainstream",
+    "source": "Tech Daily"
+   },
+   {
+    "title": "Editors test AI on real client work",
+    "source": "Creator Weekly"
+   },
+   {
+    "title": "I let AI edit my reels for a month",
+    "source": "@yourhandle"
+   },
+   {
+    "title": "The new editing workflow, explained",
+    "source": "Newsletter"
+   },
+   {
+    "title": "What changes for small teams",
+    "source": "Work Notes"
+   }
+  ]
+ }
+}

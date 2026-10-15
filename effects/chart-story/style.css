@@ -1,0 +1,24 @@
+.fx-chart-story{background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow);font-family:var(--f-body)}
+.fx-chart-story .ti{font-weight:700;line-height:1.25;letter-spacing:-.01em;margin-bottom:20px}
+.fx-chart-story .plot{position:relative}
+.fx-chart-story .bars{display:flex;align-items:flex-end}
+.fx-chart-story .col{position:relative;height:100%;display:flex;justify-content:center;align-items:flex-end}
+.fx-chart-story .bar{border-radius:12px 12px 0 0;background:color-mix(in srgb,var(--c-muted) 45%,var(--c-card));transform-origin:50% 100%}
+.fx-chart-story .bar.em{background:var(--c-accent)}
+.fx-chart-story .val{position:absolute;left:0;right:0;text-align:center;font-weight:700;line-height:1.3;white-space:nowrap;font-variant-numeric:tabular-nums}
+.fx-chart-story .ln{display:block;overflow:visible}
+.fx-chart-story .lp{fill:none;stroke:var(--c-accent);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.fx-chart-story .dot{fill:var(--c-card);stroke:var(--c-accent);stroke-width:5}
+.fx-chart-story .dot.em{fill:var(--c-accent)}
+.fx-chart-story .pv{position:absolute;text-align:center;font-weight:700;line-height:1.3;white-space:nowrap;font-variant-numeric:tabular-nums}
+.fx-chart-story .axis{height:3px;background:color-mix(in srgb,var(--c-muted) 50%,transparent);margin-bottom:14px}
+.fx-chart-story .lbs{display:flex}
+.fx-chart-story .lb{text-align:center;font-weight:500;line-height:1.3;color:var(--c-muted);white-space:nowrap}
+.fx-chart-story .src{margin-top:10px;font-weight:500;line-height:1.4;color:var(--c-muted)}
+.fx-chart-story .hrows{display:flex;flex-direction:column;gap:12px}
+.fx-chart-story .hr{display:flex;align-items:center;gap:16px}
+.fx-chart-story .hl{font-weight:600;line-height:1.3;white-space:nowrap;color:var(--c-muted);flex:none}
+.fx-chart-story .ht{height:60%;flex:none}
+.fx-chart-story .hb{height:100%;border-radius:0 10px 10px 0;background:color-mix(in srgb,var(--c-muted) 45%,var(--c-card));transform-origin:0 50%}
+.fx-chart-story .hb.em{background:var(--c-accent)}
+.fx-chart-story .hv{font-weight:700;line-height:1.3;white-space:nowrap;text-align:left;flex:none;font-variant-numeric:tabular-nums}

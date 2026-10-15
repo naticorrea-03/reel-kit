@@ -1,0 +1,11 @@
+.fx-word-build{font-family:var(--f-body);font-weight:500;line-height:1.3;text-align:center;letter-spacing:-.01em}
+.fx-word-build .w{display:inline-block;margin:0 .13em}
+.fx-word-build .w.b{font-weight:800}
+.fx-word-build.light{text-shadow:0 2px 14px color-mix(in srgb,var(--c-shadow) 70%,transparent)}
+.fx-word-build .mk{position:relative;display:inline-block;padding:0 .02em;margin:0 .1em}
+.fx-word-build .bx{position:absolute;left:0;right:0;top:.08em;bottom:.04em;background:color-mix(in srgb,var(--c-accent) 26%,transparent);transform-origin:0 50%;z-index:-1}
+.fx-word-build .tk{position:absolute;width:.16em;height:.16em;border:3px solid var(--c-accent);box-sizing:border-box}
+.fx-word-build .t1{left:-.06em;top:0;border-right:0;border-bottom:0}
+.fx-word-build .t2{right:-.06em;top:0;border-left:0;border-bottom:0}
+.fx-word-build .t3{left:-.06em;bottom:-.04em;border-right:0;border-top:0}
+.fx-word-build .t4{right:-.06em;bottom:-.04em;border-left:0;border-top:0}

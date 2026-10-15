@@ -1,0 +1,2 @@
+.fx-tag{display:flex;align-items:center;justify-content:center}
+.fx-tag .pill{display:inline-block;padding:18px 38px;border-radius:999px;color:var(--c-on-accent);font-family:var(--f-display);font-weight:700;line-height:1.25;letter-spacing:-.01em;white-space:nowrap;box-shadow:0 14px 34px color-mix(in srgb,var(--c-shadow) 35%,transparent)}

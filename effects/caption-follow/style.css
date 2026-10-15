@@ -1,0 +1,8 @@
+.fx-caption-follow{position:relative}
+.fx-caption-follow .cam{position:absolute;transform-origin:50% 50%;text-align:left}
+.fx-caption-follow .tx{font-family:var(--f-display);font-weight:800;line-height:1.06;letter-spacing:-.035em;color:var(--c-text);display:flex;flex-wrap:wrap;justify-content:flex-start;column-gap:.26em}
+.fx-caption-follow .w{display:inline-block;text-shadow:0 6px 30px color-mix(in srgb,var(--c-shadow) 65%,transparent)}
+.fx-caption-follow .w.ac{color:var(--c-accent)}
+.fx-caption-follow.on-light .tx{color:var(--c-ink)}
+.fx-caption-follow.on-light .w{text-shadow:0 2px 20px color-mix(in srgb,var(--c-card) 60%,transparent)}
+.fx-caption-follow.on-light .w.ac{color:var(--c-accent-ink)}

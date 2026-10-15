@@ -1,0 +1,12 @@
+.fx-ui-tap-sequence{position:relative;box-shadow:0 40px 90px color-mix(in srgb,var(--c-shadow) 45%,transparent)}
+.fx-ui-tap-sequence.phone{background:var(--c-ink);border-radius:62px;box-shadow:0 40px 90px color-mix(in srgb,var(--c-shadow) 45%,transparent),inset 0 0 0 3px color-mix(in srgb,var(--c-text) 22%,transparent)}
+.fx-ui-tap-sequence.card{background:var(--c-card);border-radius:var(--card-radius)}
+.fx-ui-tap-sequence .im{position:relative}
+.fx-ui-tap-sequence .im img{display:block;width:100%;height:100%;border-radius:48px}
+.fx-ui-tap-sequence.card .im img{border-radius:calc(var(--card-radius) - 6px)}
+.fx-ui-tap-sequence .hb{position:absolute;border:5px solid var(--c-accent);border-radius:18px;opacity:0}
+.fx-ui-tap-sequence .lb{position:absolute;white-space:nowrap;padding:8px 22px;border-radius:30px;background:var(--c-ink);color:var(--c-text);font-family:var(--f-body);font-weight:600;line-height:1.3;opacity:0}
+.fx-ui-tap-sequence .tap{position:absolute;width:0;height:0;z-index:5;pointer-events:none}
+.fx-ui-tap-sequence .tap b{position:absolute;left:-34px;top:-34px;width:68px;height:68px;border-radius:50%;opacity:0}
+.fx-ui-tap-sequence .tap .dt{background:color-mix(in srgb,var(--c-ink) 32%,transparent);border:4px solid var(--c-card);box-shadow:0 4px 14px color-mix(in srgb,var(--c-shadow) 30%,transparent)}
+.fx-ui-tap-sequence .tap .rp{border:4px solid color-mix(in srgb,var(--c-ink) 50%,transparent)}

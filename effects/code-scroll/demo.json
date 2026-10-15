@@ -1,0 +1,5 @@
+{"said": "I wrote one file that tells it exactly how to edit my videos", "graphic": {"type": "code-scroll", "on": "one file", "title": "EDITING.md", "lines": [
+ "---", "name: reel-editor", "description: cut talking-head clips into reels", "---", "", "# How to edit a reel", "",
+ "## 1. Cut", "- keep the sharpest take of every line", "- remove dead air over **0.3 s**", "",
+ "## 2. Captions", "- three words per caption", "- active word on an accent pill", "",
+ "## 3. Graphics", "- every graphic lands on its word", "- never cover a face", "- run `audit.sh` before render"]}}

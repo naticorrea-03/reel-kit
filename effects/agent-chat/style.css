@@ -1,0 +1,5 @@
+.fx-agent-chat .av{width:48px;height:48px;border-radius:50%;color:var(--c-text);display:inline-flex;align-items:center;justify-content:center;font-family:var(--f-body);font-weight:600;font-size:26px}
+.fx-agent-chat .av.accent{background:var(--c-accent);color:var(--c-on-accent)} .fx-agent-chat .av.accent2{background:var(--c-accent2)}
+.fx-agent-chat .ck{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
+.fx-agent-chat .cki{display:inline-flex;align-items:center;gap:10px;background:var(--c-tint);color:var(--c-ink);font-family:var(--f-display);font-weight:600;font-size:32px;padding:12px 20px;border-radius:999px}
+.fx-agent-chat .cki i{font-style:normal;font-size:26px;color:var(--c-accent-ink)}

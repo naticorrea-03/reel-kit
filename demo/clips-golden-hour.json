@@ -1,0 +1,63 @@
+{
+ "clips": [
+  {
+   "slug": "demo",
+   "hook": [
+    "how I got half of it back",
+    "20 hours a week on email"
+   ],
+   "segments": [
+    {
+     "at": 0.05,
+     "text": "Last year I spent 20 hours a week on email",
+     "spk": "A"
+    },
+    {
+     "at": 4.75,
+     "text": "so I built an assistant in chat GPT",
+     "spk": "A"
+    },
+    {
+     "at": 8.73,
+     "text": "Now every reply is drafted by 5 a.m.",
+     "spk": "A"
+    },
+    {
+     "at": 11.17,
+     "text": "I got 10 hours back and three new clients",
+     "spk": "A"
+    }
+   ],
+   "graphics": [
+    {
+     "type": "note",
+     "on": "built an assistant",
+     "text": "one weekend",
+     "side": "right"
+    },
+    {
+     "type": "orbit-carousel",
+     "on": "every reply",
+     "until": "I got",
+     "sfx": "swipe",
+     "videos": [
+      "../effects/orbit-carousel/demo/reel-1.mp4",
+      "../effects/orbit-carousel/demo/reel-2.mp4",
+      "../effects/orbit-carousel/demo/reel-3.mp4",
+      "../effects/orbit-carousel/demo/reel-4.mp4",
+      "../effects/orbit-carousel/demo/reel-5.mp4",
+      "../effects/orbit-carousel/demo/reel-6.mp4",
+      "../effects/orbit-carousel/demo/reel-7.mp4",
+      "../effects/orbit-carousel/demo/reel-8.mp4"
+     ]
+    },
+    {
+     "type": "serif",
+     "on": "10 hours back",
+     "small": "I got",
+     "big": "10 hours back."
+    }
+   ]
+  }
+ ]
+}

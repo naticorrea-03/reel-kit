@@ -1,0 +1,11 @@
+.fx-card-fan{position:relative}
+.fx-card-fan .cf{position:absolute;will-change:transform,opacity}
+.fx-card-fan .fr,.fx-card-fan .bk{position:absolute;inset:0;display:flex;flex-direction:column;padding:24px;border-radius:calc(var(--card-radius) * .8);
+  border:calc(var(--card-border) * .5) solid var(--c-frame);box-shadow:0 28px 60px color-mix(in srgb,var(--c-shadow) 42%,transparent)}
+.fx-card-fan .fr{background:var(--c-card);color:var(--c-ink)}
+.fx-card-fan .fr.v1{background:var(--c-soft)}
+.fx-card-fan .bk{background:linear-gradient(160deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 65%,var(--c-ink)));color:var(--c-text);justify-content:space-between}
+.fx-card-fan .kk{font-family:var(--f-mono);font-weight:600;font-size:28px;letter-spacing:.04em;color:var(--c-accent-ink)}
+.fx-card-fan .bk .kk{color:color-mix(in srgb,currentColor 80%,transparent);font-family:var(--f-body);letter-spacing:0}
+.fx-card-fan .tt{margin-top:auto;font-family:var(--f-display);font-weight:800;line-height:1.02;letter-spacing:-.025em;overflow-wrap:anywhere}
+.fx-card-fan .bt{font-family:var(--f-serif);font-style:var(--serif-style);font-weight:var(--serif-weight);line-height:1.05;letter-spacing:-.01em;overflow-wrap:anywhere}

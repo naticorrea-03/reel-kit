@@ -1,0 +1,55 @@
+{
+ "clips": [
+  {
+   "slug": "demo",
+   "hook": [
+    "20 hours a week",
+    "on email??"
+   ],
+   "segments": [
+    {
+     "at": 0.05,
+     "text": "Last year I spent 20 hours a week on email",
+     "spk": "A"
+    },
+    {
+     "at": 4.75,
+     "text": "so I built an assistant in chat GPT",
+     "spk": "A"
+    },
+    {
+     "at": 8.73,
+     "text": "Now every reply is drafted by 5 a.m.",
+     "spk": "A"
+    },
+    {
+     "at": 11.17,
+     "text": "I got 10 hours back and three new clients",
+     "spk": "A"
+    }
+   ],
+   "graphics": [
+    {
+     "type": "sticker",
+     "on": "on email",
+     "src": "assets/mail.svg",
+     "size": 250,
+     "hold": 1.4
+    },
+    {
+     "type": "tag",
+     "on": "assistant",
+     "text": "Custom GPT, one weekend",
+     "hold": 1.6
+    },
+    {
+     "type": "sticker",
+     "on": "10 hours back",
+     "src": "assets/clock.svg",
+     "size": 240,
+     "hold": 1.6
+    }
+   ]
+  }
+ ]
+}

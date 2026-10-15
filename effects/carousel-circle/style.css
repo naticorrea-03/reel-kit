@@ -1,0 +1,16 @@
+.fx-carousel-circle .tl{position:absolute;transform-origin:50% 50%;will-change:transform,opacity}
+.fx-carousel-circle .cd{position:absolute;inset:0;border-radius:calc(var(--card-radius) * .7);overflow:hidden;background:var(--c-card);
+  border:calc(var(--card-border) * .5) solid var(--c-frame);box-shadow:0 22px 48px color-mix(in srgb,var(--c-shadow) 42%,transparent)}
+.fx-carousel-circle .im{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fx-carousel-circle .lb{position:absolute;left:0;right:0;bottom:0;padding:22% 8% 9%;background:linear-gradient(180deg,transparent,color-mix(in srgb,var(--c-shadow) 78%,transparent))}
+.fx-carousel-circle .lt{color:var(--c-text);font-family:var(--f-display);font-weight:800;line-height:1.04;letter-spacing:-.02em;overflow-wrap:anywhere}
+.fx-carousel-circle .tg{position:absolute;inset:0;padding:9% 8%;display:flex;flex-direction:column;gap:.35em;color:var(--c-text)}
+.fx-carousel-circle .tg.v0{background:var(--c-card);color:var(--c-ink)}
+.fx-carousel-circle .tg.v1{background:linear-gradient(160deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 70%,var(--c-ink)))}
+.fx-carousel-circle .tg.v2{background:var(--c-soft);color:var(--c-ink)}
+.fx-carousel-circle .tg.v3{background:linear-gradient(160deg,var(--c-accent2),color-mix(in srgb,var(--c-accent2) 70%,var(--c-ink)))}
+.fx-carousel-circle .tg.v0 .kk,.fx-carousel-circle .tg.v2 .kk{color:var(--c-accent-ink)}
+.fx-carousel-circle .kk{font-family:var(--f-mono);font-weight:600;letter-spacing:.06em;color:color-mix(in srgb,currentColor 75%,transparent)}
+.fx-carousel-circle .tt{font-family:var(--f-display);font-weight:800;line-height:1.02;letter-spacing:-.025em;margin-top:auto;overflow-wrap:anywhere}
+.fx-carousel-circle .sb{font-family:var(--f-body);font-weight:500;line-height:1.2;color:color-mix(in srgb,currentColor 85%,transparent);overflow-wrap:anywhere}
+.fx-carousel-circle .vl{position:absolute;inset:0;border-radius:calc(var(--card-radius) * .7);background:var(--c-shadow);opacity:0;pointer-events:none}

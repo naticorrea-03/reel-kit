@@ -1,0 +1,4 @@
+{"said": "it is twelve a month, go yearly and it drops to nine, most people pick Plus", "graphic": {"type": "pricing-card", "on": "twelve a month", "hold": 1.2, "button": "Continue",
+ "tiers": [{"name": "Solo", "sub": "One person", "price": "$12", "alt": "$9"}, {"name": "Plus", "sub": "Up to 5 people", "price": "$24", "alt": "$19"}],
+ "toggle": {"on": "go yearly", "labels": ["Monthly", "Yearly"], "badge": "-25%"},
+ "pick": {"on": "pick Plus", "index": 1}}}

@@ -1,0 +1,81 @@
+{
+ "id": "golden-hour",
+ "name": "Golden Hour",
+ "summary": "Warm and soft, lifestyle premium. Honey grade, a sentence-case serif title with a handwritten line, tiny serif word captions beside the face, butter italic punch lines, handwritten notes and an orbit of tiles around the head.",
+ "vars": {
+  "--c-text": "#FFF6EA",
+  "--c-accent": "#F4CF7A",
+  "--c-accent2": "#B8764B",
+  "--c-ink": "#2A1B11",
+  "--c-card": "#FFF9F1",
+  "--c-muted": "#9C8B7A",
+  "--c-soft": "#F6EEE2",
+  "--c-tint": "#F9EBD2",
+  "--c-shadow": "#22140A",
+  "--c-behind": "var(--c-accent)",
+  "--c-on-accent": "var(--c-ink)",
+  "--c-accent-ink": "#8E5F1C",
+  "--c-frame": "var(--c-card)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Fraunces'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Caveat'",
+  "--f-mono": "'JetBrains Mono'",
+  "--f-title": "'Noto Serif Display'",
+  "--title-stretch": "84%",
+  "--title-weight": "400",
+  "--serif-style": "italic",
+  "--serif-weight": "400",
+  "--serif-case": "none",
+  "--behind-weight": "800",
+  "--hook-case": "none",
+  "--hook-small-font": "var(--f-script)",
+  "--hook-small-style": "normal",
+  "--cap-weight": "400",
+  "--card-radius": "24px",
+  "--card-border": "5px",
+  "--card-shadow": "0 24px 70px rgba(40,22,8,.40)",
+  "--c-highlight": "color-mix(in srgb,var(--c-accent) 45%,transparent)"
+ },
+ "grade": "sepia(.24) saturate(.84) contrast(.95) brightness(.97) hue-rotate(-3deg)",
+ "overlays": {
+  "warm": true,
+  "tint": {
+   "color": "#E8A657",
+   "opacity": 0.18,
+   "blend": "soft-light"
+  },
+  "vignette": 0.42,
+  "grad": 0.5
+ },
+ "captions": {
+  "style": "clean",
+  "font": "title",
+  "size": 50,
+  "case": "lower",
+  "words_per_cue": 1,
+  "max_chars": 12,
+  "max_words": 2,
+  "top": 1010,
+  "align": "left",
+  "adaptive": true
+ },
+ "hook": {
+  "style": "cover",
+  "small": "script",
+  "big": "serif"
+ },
+ "punch": "push",
+ "cut_punch": 1.03,
+ "css": [
+  ".fx-serif .sv-s{font-weight:500;letter-spacing:-.6px}",
+  ".fx-serif .sv-b{color:var(--c-accent);font-variation-settings:\"opsz\" 144,\"SOFT\" 100}",
+  ".fx-serif.on-light .sv-b{color:var(--c-accent-ink)}"
+ ],
+ "default_effects": [
+  "orbit-carousel",
+  "serif",
+  "note",
+  "behind"
+ ]
+}

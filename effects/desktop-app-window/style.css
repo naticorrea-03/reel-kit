@@ -1,0 +1,50 @@
+.fx-desktop-app-window{position:relative;border-radius:var(--card-radius);overflow:visible;font-family:var(--f-body);color:var(--c-ink);
+  background:var(--c-card);box-shadow:0 40px 100px color-mix(in srgb,var(--c-shadow) 50%,transparent);border:1.5px solid color-mix(in srgb,var(--c-ink) 10%,transparent)}
+.fx-desktop-app-window .tb{position:relative;height:60px;display:flex;align-items:center;justify-content:center;
+  border-bottom:1.5px solid color-mix(in srgb,var(--c-ink) 8%,transparent);background:var(--c-soft);border-radius:var(--card-radius) var(--card-radius) 0 0}
+.fx-desktop-app-window .dots{position:absolute;left:24px;display:flex;gap:10px}
+.fx-desktop-app-window .dots i{width:16px;height:16px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 18%,transparent)}
+.fx-desktop-app-window .app{font-weight:600;font-size:30px;color:color-mix(in srgb,var(--c-ink) 70%,transparent)}
+.fx-desktop-app-window .msgs{position:absolute;left:36px;right:36px;top:84px;height:300px}
+.fx-desktop-app-window .ub{position:absolute;right:0;top:0;display:flex;align-items:center;gap:14px;padding:14px 24px;border-radius:26px;background:var(--c-soft)}
+.fx-desktop-app-window .ub .nf{font-size:30px;font-weight:600;padding:4px 14px;border-radius:14px;background:color-mix(in srgb,var(--c-accent) 14%,transparent);color:var(--c-accent-ink)}
+.fx-desktop-app-window .ub .uc{font-family:var(--f-mono);font-size:34px}
+.fx-desktop-app-window .rp{position:absolute;left:0;right:0;top:88px}
+.fx-desktop-app-window .pill{display:inline-flex;align-items:center;gap:10px;padding:6px 18px 6px 12px;border-radius:22px;font-size:30px;font-weight:600;
+  background:color-mix(in srgb,var(--c-accent2) 14%,transparent);color:var(--c-accent2)}
+.fx-desktop-app-window .pill svg,.fx-desktop-app-window .send svg{width:30px;height:30px}
+.fx-desktop-app-window .pill path,.fx-desktop-app-window .send path{fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round}
+.fx-desktop-app-window .sp{display:flex;align-items:center;gap:16px;margin-top:12px;font-size:34px;font-weight:500;line-height:1.2}
+.fx-desktop-app-window .bx{--on:0;width:40px;height:40px;flex:none;border-radius:50%;position:relative;
+  border:3px solid color-mix(in srgb,var(--c-accent) calc(30% + var(--on) * 70%),transparent);background:color-mix(in srgb,var(--c-accent) calc(var(--on) * 100%),transparent)}
+.fx-desktop-app-window .bx svg{position:absolute;inset:3px;width:28px;height:28px}
+.fx-desktop-app-window .bx path{fill:none;stroke:var(--c-on-accent);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:24;stroke-dashoffset:24}
+.fx-desktop-app-window .card{position:absolute;right:0;top:64px;display:flex;align-items:center;gap:18px;padding:14px 26px 14px 14px;border-radius:20px;
+  border:1.5px solid color-mix(in srgb,var(--c-ink) 12%,transparent);background:var(--c-card);box-shadow:0 10px 30px color-mix(in srgb,var(--c-shadow) 14%,transparent)}
+.fx-desktop-app-window .card .ic{width:64px;height:64px;border-radius:14px;background:var(--c-accent);display:flex;align-items:center;justify-content:center}
+.fx-desktop-app-window .card .ic svg{width:36px;height:36px}
+.fx-desktop-app-window .card .ic path{fill:none;stroke:var(--c-on-accent);stroke-width:2;stroke-linejoin:round}
+.fx-desktop-app-window .fn{font-family:var(--f-mono);font-size:32px;font-weight:500}
+.fx-desktop-app-window .fs{font-size:28px;color:var(--c-muted)}
+.fx-desktop-app-window .menu{position:absolute;left:36px;bottom:136px;width:440px;padding:10px;border-radius:20px;background:var(--c-card);
+  border:1.5px solid color-mix(in srgb,var(--c-ink) 12%,transparent);box-shadow:0 20px 50px color-mix(in srgb,var(--c-shadow) 22%,transparent)}
+.fx-desktop-app-window .mi{--hl:0;padding:10px 16px;border-radius:12px;font-family:var(--f-mono);font-size:32px;
+  background:color-mix(in srgb,var(--c-accent) calc(var(--hl) * 14%),transparent)}
+.fx-desktop-app-window .mi b{font-weight:500}
+.fx-desktop-app-window .comp{position:absolute;left:22px;right:22px;bottom:20px;height:104px;display:flex;align-items:center;gap:20px;padding:0 16px 0 20px;
+  border-radius:28px;border:2px solid color-mix(in srgb,var(--c-ink) 14%,transparent);background:var(--c-card)}
+.fx-desktop-app-window .chips{position:relative;height:72px;flex:none}
+.fx-desktop-app-window .fc{position:absolute;top:4px;width:64px;height:64px;border-radius:14px;border:3px solid var(--c-card);
+  background:linear-gradient(150deg,var(--c-accent2),color-mix(in srgb,var(--c-accent2) 40%,var(--c-ink)));display:flex;align-items:center;justify-content:center}
+.fx-desktop-app-window .fc.f1{background:linear-gradient(150deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 40%,var(--c-ink)))}
+.fx-desktop-app-window .fc.f3{background:linear-gradient(150deg,color-mix(in srgb,var(--c-accent2) 50%,var(--c-text)),var(--c-accent2))}
+.fx-desktop-app-window .fc svg{width:30px;height:30px}
+.fx-desktop-app-window .fc path{fill:var(--c-text)}
+.fx-desktop-app-window .badge{position:absolute;right:-16px;top:-10px;min-width:40px;height:40px;padding:0 10px;border-radius:20px;background:var(--c-accent);
+  color:var(--c-on-accent);font-size:28px;font-weight:700;display:flex;align-items:center;justify-content:center;z-index:20}
+.fx-desktop-app-window .ty{flex:1;display:flex;align-items:center;font-family:var(--f-mono);font-size:36px;white-space:nowrap;padding-left:14px}
+.fx-desktop-app-window .ty .tc{display:inline-block;overflow:hidden;vertical-align:bottom}
+.fx-desktop-app-window .cur{display:inline-block;width:3px;height:42px;margin-left:3px;background:var(--c-accent)}
+.fx-desktop-app-window .send{width:68px;height:68px;flex:none;border-radius:50%;background:var(--c-accent);color:var(--c-on-accent);display:flex;align-items:center;justify-content:center}
+.fx-desktop-app-window .ty .ph{position:absolute;font-family:var(--f-body);font-size:34px;color:var(--c-muted)}
+.fx-desktop-app-window .ty{position:relative}

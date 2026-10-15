@@ -1,0 +1,16 @@
+.fx-map-pin{background:var(--c-card);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow);padding:14px}
+.fx-map-pin .map{position:relative;border-radius:calc(var(--card-radius) - 10px);overflow:hidden;background:var(--c-soft)}
+.fx-map-pin .bg{position:absolute;inset:0}
+.fx-map-pin .land{fill:var(--c-soft)}
+.fx-map-pin .water{fill:color-mix(in srgb,var(--c-accent2) 30%,var(--c-card))}
+.fx-map-pin .park{fill:color-mix(in srgb,var(--c-accent2) 16%,var(--c-soft))}
+.fx-map-pin .road{fill:none;stroke:var(--c-card);stroke-width:16;stroke-linecap:round}
+.fx-map-pin .road.main{stroke-width:24}
+.fx-map-pin .street{fill:none;stroke:var(--c-card);stroke-width:7;stroke-linecap:round}
+.fx-map-pin .pin{position:absolute;width:64px;height:84px;overflow:visible}
+.fx-map-pin .pin path{fill:var(--c-accent-ink)} .fx-map-pin .pin circle{fill:var(--c-card)}
+.fx-map-pin .sh{position:absolute;width:44px;height:16px;border-radius:50%;background:color-mix(in srgb,var(--c-shadow) 35%,transparent)}
+.fx-map-pin .chip{position:absolute;background:var(--c-card);color:var(--c-ink);border-radius:18px;padding:14px 22px;font-family:var(--f-body);
+  box-shadow:0 8px 24px color-mix(in srgb,var(--c-shadow) 30%,transparent)}
+.fx-map-pin .pl{font-weight:700;line-height:1.25;white-space:nowrap}
+.fx-map-pin .sb{font-weight:500;line-height:1.3;color:var(--c-muted);white-space:nowrap}

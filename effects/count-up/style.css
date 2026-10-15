@@ -1,0 +1,8 @@
+.fx-count-up{text-align:center;color:var(--c-text)}
+.fx-count-up .num{display:grid;font-family:var(--f-display);font-weight:900;line-height:1;letter-spacing:-.04em;font-variant-numeric:tabular-nums;
+  text-shadow:0 6px 34px color-mix(in srgb,var(--c-shadow) 60%,transparent)}
+.fx-count-up .num span{grid-area:1/1;white-space:nowrap}
+.fx-count-up .num .ghost{visibility:hidden}
+.fx-count-up .lab{margin-top:16px;text-wrap:balance;font-family:var(--f-body);font-weight:600;line-height:1.25;text-shadow:0 2px 14px color-mix(in srgb,var(--c-shadow) 70%,transparent)}
+.fx-count-up.on-light{color:var(--c-ink)}
+.fx-count-up.on-light .num,.fx-count-up.on-light .lab{text-shadow:0 2px 22px color-mix(in srgb,var(--c-card) 60%,transparent)}

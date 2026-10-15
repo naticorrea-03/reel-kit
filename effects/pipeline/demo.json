@@ -1,0 +1,1 @@
+{"said": "my whole process is draft then agents then deck and it ships the same day", "graphic": {"type": "pipeline", "on": "draft", "nodes": [{"label": "draft", "on": "draft", "glyph": "D"}, {"label": "agents", "on": "agents", "glyph": "A"}, {"label": "deck", "on": "deck", "glyph": "■"}]}}

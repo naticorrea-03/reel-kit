@@ -1,0 +1,3 @@
+.fx-screenshot .shot{border-radius:var(--card-radius);overflow:hidden;border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow);background:var(--c-card)}
+.fx-screenshot .shot-img{width:100%;background-repeat:no-repeat}
+.fx-screenshot .cap-pill{margin:16px auto 0;width:max-content;max-width:860px;background:var(--c-accent);color:var(--c-on-accent);font-family:var(--f-display);font-weight:600;font-size:30px;padding:10px 20px;border-radius:999px}

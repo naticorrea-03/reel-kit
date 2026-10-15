@@ -1,0 +1,9 @@
+.fx-code-terminal{background:var(--c-ink);border-radius:calc(var(--card-radius) * .8);box-shadow:var(--card-shadow);overflow:hidden;
+  border:var(--card-border) solid color-mix(in srgb,var(--c-frame) 25%,var(--c-ink))}
+.fx-code-terminal .bar{height:72px;display:flex;align-items:center;gap:12px;padding:0 26px;background:color-mix(in srgb,var(--c-card) 10%,var(--c-ink))}
+.fx-code-terminal .bar i{width:18px;height:18px;border-radius:50%;background:color-mix(in srgb,var(--c-card) 30%,var(--c-ink))}
+.fx-code-terminal .bar span{margin-left:14px;font-family:var(--f-body);font-weight:600;font-size:28px;color:color-mix(in srgb,var(--c-card) 70%,var(--c-ink))}
+.fx-code-terminal .body{padding:28px 34px 32px;font-family:var(--f-mono),monospace;line-height:1.45;color:var(--c-card);overflow-wrap:anywhere}
+.fx-code-terminal .pr{color:color-mix(in srgb,var(--c-accent) 55%,var(--c-card));font-weight:700}
+.fx-code-terminal .o{color:color-mix(in srgb,var(--c-card) 72%,var(--c-ink))}
+.fx-code-terminal .o{overflow:hidden}

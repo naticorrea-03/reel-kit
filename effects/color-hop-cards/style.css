@@ -1,0 +1,5 @@
+.fx-color-hop-cards{position:relative;border-radius:calc(var(--card-radius) + 12px);overflow:hidden;font-family:var(--f-display)}
+.fx-color-hop-cards .bgk{position:absolute;inset:0;opacity:0}
+.fx-color-hop-cards .bgk.b0{opacity:1}
+.fx-color-hop-cards .wd{position:absolute;left:0;right:0;display:flex;align-items:center;justify-content:center;text-align:center}
+.fx-color-hop-cards .wd span{display:inline-block;font-weight:900;letter-spacing:-.045em;line-height:1;white-space:nowrap;opacity:0}

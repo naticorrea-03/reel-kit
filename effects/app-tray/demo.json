@@ -1,0 +1,1 @@
+{"said": "no fancy editor, no extra apps, no plugins, nothing, just one sentence", "graphic": {"type": "app-tray", "on": "no fancy editor", "apps": [{"name": "Notes", "keep": true}, {"name": "Editor", "on": "editor"}, {"name": "Apps", "on": "extra apps"}, {"name": "Plugins", "on": "plugins"}], "end": "nothing.", "end_on": "nothing"}}

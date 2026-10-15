@@ -1,0 +1,10 @@
+.fx-calendar-flip{position:relative;transform-origin:50% 0}
+.fx-calendar-flip .bk{position:absolute;left:10px;right:-8px;top:18px;bottom:-10px;border-radius:14px;background:color-mix(in srgb,var(--c-card) 82%,var(--c-ink));box-shadow:var(--card-shadow)}
+.fx-calendar-flip .pg{position:absolute;left:0;right:0;top:34px;bottom:0;background:var(--c-card);color:var(--c-ink);border-radius:6px 6px 14px 14px;
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:26px;box-sizing:border-box;transform-origin:0 0;
+  box-shadow:0 1px 0 color-mix(in srgb,var(--c-ink) 14%,transparent),0 10px 24px color-mix(in srgb,var(--c-shadow) 22%,transparent)}
+.fx-calendar-flip .mo{position:absolute;top:22px;left:26px;right:26px;display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:33px;font-weight:600;letter-spacing:.08em;color:var(--c-muted)}
+.fx-calendar-flip .dy{font-family:var(--f-serif);font-weight:500;font-size:160px;line-height:.86;letter-spacing:-.03em}
+.fx-calendar-flip .lb{font-family:var(--f-body);font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-top:12px;color:var(--c-accent-ink)}
+.fx-calendar-flip .bar{position:absolute;left:0;right:0;top:0;height:46px;border-radius:12px 12px 4px 4px;background:var(--c-accent);z-index:30;display:flex;justify-content:space-around;align-items:center}
+.fx-calendar-flip .bar i{width:16px;height:16px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 55%,var(--c-accent))}

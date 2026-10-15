@@ -1,0 +1,5 @@
+.fx-speaker-tags{display:inline-block}
+.fx-speaker-tags .tg{display:inline-block;padding:8px 20px;border-radius:10px;background:var(--c-card);color:var(--c-ink);font-family:var(--f-display);font-weight:800;
+  letter-spacing:.08em;text-transform:uppercase;line-height:1.1;white-space:nowrap;box-shadow:0 6px 16px color-mix(in srgb,var(--c-shadow) 25%,transparent);
+  transition:none}
+.fx-speaker-tags .tg.on{background:var(--c-accent);color:var(--c-on-accent)}

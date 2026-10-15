@@ -1,0 +1,33 @@
+{
+ "note": "Sounds are NOT committed: the Pixabay Content License allows free use in your videos but forbids redistributing the files on their own. engine/fetch_sfx.py downloads each sound that has a url, and tells you where to drop the rest. Every file must start on the sound (trim leading silence); a late file makes every hit late.",
+ "license": "Pixabay Content License, https://pixabay.com/service/license-summary/",
+ "folder": "assets/sfx",
+ "sounds": [
+  {"name": "typing", "use": "on-screen text typing out in a chat window", "query": "laptop keyboard typing short", "max_s": 2.5, "url": null},
+  {"name": "message-send", "use": "a chat message or chip sent", "query": "message sent swoosh short", "max_s": 1.0, "url": null},
+  {"name": "message-receive", "use": "a chat reply or notification arriving", "query": "message received notification", "max_s": 1.0, "url": null},
+  {"name": "camera-shutter", "use": "a photo appearing", "query": "camera shutter click", "max_s": 1.0, "url": null},
+  {"name": "page-flip", "use": "a paper, report or PDF sliding in", "query": "single page flip", "max_s": 1.0, "url": null},
+  {"name": "cash-register", "use": "a big money number counting up", "query": "cash register kaching", "max_s": 1.5, "url": null},
+  {"name": "coin", "use": "the word profit or a small money chip", "query": "coin drop single", "max_s": 1.0, "url": null},
+  {"name": "clock-tick", "use": "the word time or a time chip", "query": "clock ticking", "max_s": 1.5, "url": null},
+  {"name": "alarm-clock", "use": "a note with an early time like 5 a.m.", "query": "alarm clock ring", "max_s": 2.5, "url": null},
+  {"name": "scanner-beep", "use": "a QR code or barcode on screen", "query": "barcode scanner beep", "max_s": 1.0, "url": null},
+  {"name": "dial-up", "use": "an old internet brand logo (1990s, 2000s)", "query": "dial up modem", "max_s": 2.5, "url": null},
+  {"name": "power-down", "use": "something being shut down or switched off", "query": "power down machine", "max_s": 1.5, "url": null},
+  {"name": "swipe", "use": "a carousel of cards turning or spinning past (one soft swipe per move, never a whoosh on a plain cut)", "query": "soft swipe card slide short", "max_s": 0.8, "url": null},
+  {"name": "whistle", "use": "a referee or sports reference that is literally on screen (never for a figure of speech)", "query": "referee whistle short", "max_s": 1.0, "url": null},
+  {"name": "tap", "use": "a finger tap on a phone button, row or toggle on screen", "query": "phone screen tap click short", "max_s": 0.5, "url": null},
+  {"name": "mouse-click", "use": "a big on-screen cursor clicking a button (oversized-cursor)", "query": "mouse click single", "max_s": 0.5, "url": null},
+  {"name": "rubber-stamp", "use": "a rubber stamp landing on a document (stamp)", "query": "rubber stamp hit paper", "max_s": 1.0, "url": null},
+  {"name": "paper-tear", "use": "a calendar page torn off (calendar-flip)", "query": "paper tear short rip", "max_s": 1.0, "url": null},
+  {"name": "split-flap", "use": "a split-flap clock or board flipping (flip-clock)", "query": "split flap display flipping", "max_s": 2.0, "url": null},
+  {"name": "ticket-tear", "use": "a numbered ticket pulled from a dispenser (ticket-dispenser)", "query": "ticket tear paper pull", "max_s": 1.0, "url": null},
+  {"name": "pen-scribble", "use": "a pen writing on paper (signup-sheet, script-write)", "query": "pen writing on paper", "max_s": 2.0, "url": null},
+  {"name": "receipt-printer", "use": "a receipt printing (receipt-print)", "query": "receipt printer printing", "max_s": 2.5, "url": null},
+  {"name": "keycaps", "use": "keyboard keys falling and piling up (keycap-rain)", "query": "keyboard keys falling plastic clatter", "max_s": 2.0, "url": null},
+  {"name": "marker-circle", "use": "a marker circling or crossing something on paper (contact-sheet)", "query": "marker pen stroke on paper", "max_s": 1.0, "url": null},
+  {"name": "crack", "use": "an app icon cracking in two (icon-split)", "query": "plastic crack snap short", "max_s": 1.0, "url": null},
+  {"name": "film-projector", "use": "old film running, only for a film or movie reference (film-strip)", "query": "film projector running", "max_s": 3.0, "url": null}
+ ]
+}

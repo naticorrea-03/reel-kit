@@ -1,0 +1,180 @@
+{
+ "model": "medium",
+ "words": [
+  {
+   "text": "Last",
+   "start": 0.05,
+   "end": 0.93
+  },
+  {
+   "text": "year",
+   "start": 0.93,
+   "end": 1.23
+  },
+  {
+   "text": "I",
+   "start": 1.23,
+   "end": 1.65
+  },
+  {
+   "text": "spent",
+   "start": 1.65,
+   "end": 1.97
+  },
+  {
+   "text": "20",
+   "start": 1.97,
+   "end": 2.71
+  },
+  {
+   "text": "hours",
+   "start": 2.71,
+   "end": 3.19
+  },
+  {
+   "text": "a",
+   "start": 3.19,
+   "end": 3.45
+  },
+  {
+   "text": "week",
+   "start": 3.45,
+   "end": 3.77
+  },
+  {
+   "text": "on",
+   "start": 3.77,
+   "end": 4.29
+  },
+  {
+   "text": "email",
+   "start": 4.29,
+   "end": 4.75
+  },
+  {
+   "text": "so",
+   "start": 4.75,
+   "end": 5.89
+  },
+  {
+   "text": "I",
+   "start": 5.89,
+   "end": 6.11
+  },
+  {
+   "text": "built",
+   "start": 6.11,
+   "end": 6.23
+  },
+  {
+   "text": "an",
+   "start": 6.23,
+   "end": 6.51
+  },
+  {
+   "text": "assistant",
+   "start": 6.51,
+   "end": 6.89
+  },
+  {
+   "text": "in",
+   "start": 6.89,
+   "end": 7.17
+  },
+  {
+   "text": "chat",
+   "start": 7.17,
+   "end": 7.39
+  },
+  {
+   "text": "GPT.",
+   "start": 7.39,
+   "end": 8.27
+  },
+  {
+   "text": "Now",
+   "start": 8.73,
+   "end": 8.87
+  },
+  {
+   "text": "every",
+   "start": 8.87,
+   "end": 9.21
+  },
+  {
+   "text": "reply",
+   "start": 9.21,
+   "end": 9.55
+  },
+  {
+   "text": "is",
+   "start": 9.55,
+   "end": 9.83
+  },
+  {
+   "text": "drafted",
+   "start": 9.83,
+   "end": 10.01
+  },
+  {
+   "text": "by",
+   "start": 10.01,
+   "end": 10.39
+  },
+  {
+   "text": "5",
+   "start": 10.39,
+   "end": 10.65
+  },
+  {
+   "text": "a.m.",
+   "start": 10.65,
+   "end": 11.03
+  },
+  {
+   "text": "I",
+   "start": 11.17,
+   "end": 11.39
+  },
+  {
+   "text": "got",
+   "start": 11.39,
+   "end": 11.57
+  },
+  {
+   "text": "10",
+   "start": 11.57,
+   "end": 11.83
+  },
+  {
+   "text": "hours",
+   "start": 11.83,
+   "end": 12.11
+  },
+  {
+   "text": "back",
+   "start": 12.11,
+   "end": 12.59
+  },
+  {
+   "text": "and",
+   "start": 12.59,
+   "end": 13.49
+  },
+  {
+   "text": "three",
+   "start": 13.49,
+   "end": 13.99
+  },
+  {
+   "text": "new",
+   "start": 13.99,
+   "end": 14.21
+  },
+  {
+   "text": "clients.",
+   "start": 14.21,
+   "end": 14.65
+  }
+ ]
+}

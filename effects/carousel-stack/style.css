@@ -1,0 +1,10 @@
+.fx-carousel-stack .dk{display:grid}
+.fx-carousel-stack .cd{grid-area:1/1;position:relative;transform-origin:50% 100%}
+.fx-carousel-stack .fr{height:100%;background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);
+  box-shadow:var(--card-shadow);padding:40px;font-family:var(--f-body)}
+.fx-carousel-stack .tt{font-family:var(--f-display);font-weight:800;line-height:1.2;letter-spacing:-.5px;overflow-wrap:anywhere}
+.fx-carousel-stack .tx{font-weight:500;line-height:1.3;margin-top:16px;overflow-wrap:anywhere}
+.fx-carousel-stack .bk{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--c-accent2);
+  border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow)}
+.fx-carousel-stack .mk{width:120px;height:120px}
+.fx-carousel-stack .mk rect,.fx-carousel-stack .mk path{fill:none;stroke:color-mix(in srgb,var(--c-text) 70%,transparent);stroke-width:6;stroke-linecap:round}

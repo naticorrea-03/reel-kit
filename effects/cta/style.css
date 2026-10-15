@@ -1,0 +1,4 @@
+.fx-cta{text-align:center}
+.fx-cta .pill{display:inline-block;padding:22px 44px;border-radius:999px;background:var(--c-card);color:var(--c-ink);font-family:var(--f-display);font-weight:800;line-height:1.2;letter-spacing:-.02em;white-space:nowrap;
+  border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow)}
+.fx-cta .k{color:var(--c-accent-ink)}

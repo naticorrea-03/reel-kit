@@ -1,0 +1,9 @@
+.fx-before-after{position:relative;display:grid;grid-template-columns:1fr 1fr;border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);
+  box-shadow:var(--card-shadow);overflow:hidden;background:var(--c-soft);color:var(--c-ink);font-family:var(--f-body)}
+.fx-before-after .sd{padding:34px 32px}
+.fx-before-after .af{background:var(--c-accent2);color:var(--c-text)}
+.fx-before-after .lb{font-family:var(--f-display);font-weight:700;font-size:28px;line-height:1.3;letter-spacing:3px;text-transform:uppercase;margin-bottom:16px;opacity:.75}
+.fx-before-after .tx{font-family:var(--f-display);font-weight:700;line-height:1.25;letter-spacing:-.5px;overflow-wrap:anywhere}
+.fx-before-after .dv{position:absolute;left:calc(50% - 4px);top:0;bottom:0;width:8px;background:var(--c-card)}
+.fx-before-after .dv b{position:absolute;left:-18px;top:calc(50% - 22px);width:44px;height:44px;border-radius:50%;background:var(--c-card);
+  box-shadow:0 4px 14px color-mix(in srgb,var(--c-shadow) 40%,transparent)}

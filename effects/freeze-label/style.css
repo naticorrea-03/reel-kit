@@ -1,0 +1,9 @@
+.fx-freeze-label{position:absolute;inset:0}
+.fx-freeze-label .chip{position:absolute;display:flex;align-items:center;gap:14px;padding:12px 22px 12px 12px;border-radius:999px;white-space:nowrap;
+  background:var(--c-card);color:var(--c-ink);font-family:var(--f-body);font-weight:600;line-height:1.25;letter-spacing:-.01em;
+  box-shadow:0 14px 34px color-mix(in srgb,var(--c-shadow) 40%,transparent);transform-origin:50% 50%}
+.fx-freeze-label .chip .n{display:inline-flex;align-items:center;justify-content:center;min-width:56px;height:44px;padding:0 8px;border-radius:22px;
+  background:var(--c-accent);color:var(--c-on-accent);font-family:var(--f-mono);font-size:28px;font-weight:500}
+.fx-freeze-label .arr path{fill:none;stroke:var(--c-text);stroke-width:3;stroke-linecap:round;
+  filter:drop-shadow(0 1px 3px color-mix(in srgb,var(--c-shadow) 70%,transparent))}
+.fx-freeze-label .arr circle{fill:var(--c-accent);stroke:var(--c-text);stroke-width:4}

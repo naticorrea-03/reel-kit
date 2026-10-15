@@ -1,0 +1,8 @@
+.fx-split-screen{position:absolute;inset:0}
+.fx-split-screen .card{position:absolute;border-radius:22px;overflow:hidden;background:var(--c-card);box-shadow:0 26px 60px rgba(30,15,10,.28)}
+.fx-split-screen.dark .card{box-shadow:0 26px 70px rgba(0,0,0,.6)}
+.fx-split-screen .bar{display:flex;gap:10px;align-items:center;height:44px;padding:0 20px;box-sizing:border-box;background:color-mix(in srgb,var(--c-ink) 6%,var(--c-card))}
+.fx-split-screen .bar i{display:block;width:13px;height:13px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 22%,var(--c-card))}
+.fx-split-screen .pg{background-repeat:no-repeat}
+.fx-split-words{position:relative;display:flex;align-items:center;justify-content:center}
+.fx-split-words .w{position:absolute;padding:4px 22px;border-radius:14px;background:var(--c-ink);color:var(--c-text);font-family:var(--f-display);font-weight:800;letter-spacing:.02em;line-height:1.2;white-space:nowrap}

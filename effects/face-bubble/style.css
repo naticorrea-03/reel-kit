@@ -1,0 +1,10 @@
+.fx-face-bubble{position:absolute;inset:0}
+.fx-face-bubble .card{position:absolute;border-radius:22px;overflow:hidden;background:var(--c-card);box-shadow:0 26px 60px rgba(30,15,10,.3)}
+.fx-face-bubble.dark .card{box-shadow:0 30px 80px rgba(0,0,0,.65)}
+.fx-face-bubble .bar{display:flex;gap:10px;align-items:center;height:44px;padding:0 20px;box-sizing:border-box;background:color-mix(in srgb,var(--c-ink) 6%,var(--c-card))}
+.fx-face-bubble .bar i{display:block;width:13px;height:13px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 22%,var(--c-card))}
+.fx-face-bubble .pg{background-repeat:no-repeat}
+.fx-face-bubble .ring{position:absolute;display:block;box-sizing:border-box;border-radius:50%;border:7px solid #D9B26A;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.fx-bubble-words{position:relative;display:flex;align-items:center;justify-content:center}
+.fx-bubble-words .w{position:absolute;color:var(--c-ink);font-family:var(--f-display);font-weight:800;letter-spacing:.03em;line-height:1.2;white-space:nowrap}
+.fx-bubble-words.dark .w{color:#F4EEE4}

@@ -1,0 +1,1 @@
+{"said": "here is the site I built and here is the inbox it fills every night", "graphic": {"type": "split-screen", "on": "here is the site", "cards": [{"src": "site.svg"}, {"src": "inbox.svg", "on": "here is the inbox"}], "hold": 3.6}}

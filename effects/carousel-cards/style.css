@@ -1,0 +1,8 @@
+.fx-carousel-cards .vp{width:860px;overflow:hidden;padding:4px 0 10px}
+.fx-carousel-cards .tr{display:flex;gap:28px;width:max-content;align-items:stretch}
+.fx-carousel-cards .cd{flex:none;background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);padding:36px;font-family:var(--f-body)}
+.fx-carousel-cards .tt{font-family:var(--f-display);font-weight:800;line-height:1.2;letter-spacing:-.5px;overflow-wrap:anywhere}
+.fx-carousel-cards .tx{font-weight:500;line-height:1.3;margin-top:14px;color:var(--c-ink);overflow-wrap:anywhere}
+.fx-carousel-cards .dots{display:flex;justify-content:center;gap:14px;margin-top:16px}
+.fx-carousel-cards .dots i{position:relative;width:14px;height:14px;border-radius:50%;background:color-mix(in srgb,var(--c-text) 55%,transparent)}
+.fx-carousel-cards .dots b{position:absolute;inset:0;border-radius:50%;background:var(--c-accent)}

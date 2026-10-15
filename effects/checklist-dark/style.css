@@ -1,0 +1,24 @@
+.fx-checklist-dark{position:relative;padding:30px 30px 28px;border-radius:var(--card-radius);font-family:var(--f-body);color:var(--c-text);
+  background:linear-gradient(180deg,color-mix(in srgb,var(--c-ink) 86%,transparent),color-mix(in srgb,var(--c-ink) 94%,transparent));
+  -webkit-backdrop-filter:blur(18px) saturate(1.2);backdrop-filter:blur(18px) saturate(1.2);
+  border:1.5px solid color-mix(in srgb,var(--c-text) 14%,transparent);box-shadow:0 30px 70px color-mix(in srgb,var(--c-shadow) 55%,transparent)}
+.fx-checklist-dark .hd{display:flex;align-items:center;gap:16px;height:52px}
+.fx-checklist-dark .dots{display:flex;gap:9px}
+.fx-checklist-dark .dots i{width:14px;height:14px;border-radius:50%;background:color-mix(in srgb,var(--c-text) 22%,transparent)}
+.fx-checklist-dark .tt{flex:1;font-family:var(--f-display);font-weight:700;font-size:28px;letter-spacing:.14em;text-transform:uppercase;
+  color:color-mix(in srgb,var(--c-text) 62%,transparent);white-space:nowrap}
+.fx-checklist-dark .cts{position:relative;width:110px;height:44px}
+.fx-checklist-dark .ct{position:absolute;right:0;top:0;height:44px;padding:0 14px;border-radius:22px;display:flex;align-items:center;white-space:nowrap;
+  font-family:var(--f-mono);font-size:28px;background:color-mix(in srgb,var(--c-text) 10%,transparent);color:var(--c-text)}
+.fx-checklist-dark .bars{display:flex;gap:8px;margin:18px 0 26px}
+.fx-checklist-dark .bars i{flex:1;height:8px;border-radius:4px;background:color-mix(in srgb,var(--c-text) 14%,transparent);overflow:hidden}
+.fx-checklist-dark .bars u{display:block;height:100%;background:color-mix(in srgb,var(--c-accent) 55%,var(--c-text));transform-origin:0 50%}
+.fx-checklist-dark .it{display:flex;align-items:flex-start;gap:22px;padding:8px 0;margin-top:24px}
+.fx-checklist-dark .r0{margin-top:0}
+.fx-checklist-dark .bx{--on:0;position:relative;width:52px;height:52px;flex:none;border-radius:50%;
+  border:3px solid color-mix(in srgb,var(--c-text) calc(35% + var(--on) * 65%),transparent);
+  background:color-mix(in srgb,color-mix(in srgb,var(--c-accent) 55%,var(--c-text)) calc(var(--on) * 100%),transparent)}
+.fx-checklist-dark .bx svg{position:absolute;inset:6px;width:34px;height:34px}
+.fx-checklist-dark .bx path{fill:none;stroke:var(--c-ink);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:24;stroke-dashoffset:24}
+.fx-checklist-dark .tx{font-weight:600;line-height:1.25;letter-spacing:-.01em;padding-top:4px;overflow-wrap:anywhere}
+.fx-checklist-dark .tx em{font-style:normal;color:color-mix(in srgb,var(--c-accent) 45%,var(--c-text))}

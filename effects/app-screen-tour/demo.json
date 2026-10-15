@@ -1,0 +1,5 @@
+{"said": "I open it, tap plan my day, and boom, my whole morning is sorted", "graphic": {"type": "app-screen-tour", "on": "open it", "app": "Tidyday", "hold": 1.6,
+ "screens": [
+  {"title": "Inbox", "rows": ["Reply to Sam", "Gym before work", "Draft the report", "Call the bank"], "button": "Plan my day", "tap": "button"},
+  {"on": "boom", "title": "Today", "rows": [{"text": "Gym", "meta": "7:00"}, {"text": "Draft the report", "meta": "9:00"}, {"text": "Reply to Sam", "meta": "11:30"}, {"text": "Call the bank", "meta": "2:00"}], "tap": 1}
+ ]}}

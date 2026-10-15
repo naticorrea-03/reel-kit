@@ -1,0 +1,4 @@
+.fx-spotlight{position:absolute;inset:0;pointer-events:none}
+.fx-spotlight .scrim{position:absolute;left:0;top:0;
+  background:radial-gradient(var(--rx) var(--ry) at 50% 50%,transparent 0%,transparent 42%,
+    color-mix(in srgb,var(--c-shadow) calc(var(--dark) * .55),transparent) 72%,color-mix(in srgb,var(--c-shadow) var(--dark),transparent) 100%)}

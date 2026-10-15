@@ -1,0 +1,6 @@
+.fx-qr-tag .tag{width:420px;background:var(--c-text);border-radius:22px 22px 30px 30px;padding:70px 40px 40px;box-shadow:0 26px 60px rgba(0,0,0,.4);position:relative;text-align:center}
+.fx-qr-tag .tag-hole{position:absolute;left:50%;top:22px;width:34px;height:34px;margin-left:-17px;border-radius:50%;background:var(--c-ink)}
+.fx-qr-tag .tag-brand{font-family:var(--f-display);font-weight:600;font-size:30px;letter-spacing:6px;text-transform:uppercase;color:var(--c-accent-ink);margin-bottom:24px}
+.fx-qr-tag .qr{position:relative;width:294px;height:294px;margin:0 auto;background:#fff}
+.fx-qr-tag .qr i{position:absolute;width:14px;height:14px;background:var(--c-ink)}
+.fx-qr-tag .tag-s{font-family:var(--f-script);font-weight:600;font-size:44px;color:var(--c-ink);margin-top:18px}

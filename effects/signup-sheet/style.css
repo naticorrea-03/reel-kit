@@ -1,0 +1,21 @@
+.fx-signup-sheet{position:relative}
+.fx-signup-sheet .in2{position:relative}
+.fx-signup-sheet .bd{position:absolute;left:0;top:0;border-radius:18px;background:color-mix(in srgb,var(--c-accent) 30%,#b48a5a);box-shadow:var(--card-shadow);transform-origin:50% 0}
+.fx-signup-sheet .clip{position:absolute;left:50%;top:-14px;width:120px;height:40px;margin-left:-60px;border-radius:10px;background:linear-gradient(180deg,#d9d9d9,#8d8d8d);z-index:3}
+.fx-signup-sheet .pp{position:absolute;left:16px;right:16px;top:16px;bottom:16px;border-radius:6px;background:var(--c-card);color:var(--c-ink);padding:30px 26px 10px;box-sizing:border-box}
+.fx-signup-sheet .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid color-mix(in srgb,var(--c-ink) 70%,transparent);padding-bottom:6px}
+.fx-signup-sheet .tt{font-family:var(--f-serif);font-weight:600;line-height:1.1;white-space:nowrap}
+.fx-signup-sheet .sm{font-family:var(--f-mono);font-size:36px;letter-spacing:.08em;text-transform:uppercase;color:var(--c-muted)}
+.fx-signup-sheet .rw{display:flex;align-items:flex-end;height:66px;gap:12px}
+.fx-signup-sheet .no{font-family:var(--f-mono);font-size:34px;color:var(--c-muted);padding-bottom:6px}
+.fx-signup-sheet .ru{flex:1;height:100%;border-bottom:2px solid color-mix(in srgb,var(--c-ink) 22%,transparent);position:relative}
+.fx-signup-sheet .nm{position:absolute;left:8px;bottom:-12px;padding-right:.3em;font-family:var(--f-script);font-weight:600;line-height:1;color:var(--c-ink);white-space:nowrap;
+  -webkit-mask-image:linear-gradient(90deg,#000 var(--p),transparent calc(var(--p) + 10%));mask-image:linear-gradient(90deg,#000 var(--p),transparent calc(var(--p) + 10%))}
+.fx-signup-sheet .pw{position:absolute;left:90px;top:-80px;z-index:4;transform-origin:50% 100%}
+.fx-signup-sheet .pen{display:block;filter:drop-shadow(0 8px 10px color-mix(in srgb,var(--c-shadow) 35%,transparent))}
+.fx-signup-sheet .tg{position:absolute;top:-6px;width:140px;transform-origin:50% 0;z-index:5}
+.fx-signup-sheet .str{position:absolute;left:68px;top:0;width:3px;height:60px;background:color-mix(in srgb,var(--c-ink) 60%,transparent)}
+.fx-signup-sheet .tb{position:absolute;left:10px;top:56px;width:120px;height:190px;border-radius:12px 12px 8px 8px;background:color-mix(in srgb,var(--c-card) 75%,#c9a46c);
+  box-shadow:0 10px 22px color-mix(in srgb,var(--c-shadow) 35%,transparent);display:flex;align-items:center;justify-content:center;clip-path:polygon(20% 0,80% 0,100% 16%,100% 100%,0 100%,0 16%)}
+.fx-signup-sheet .tb b{position:absolute;top:18px;left:54px;width:12px;height:12px;border-radius:50%;background:color-mix(in srgb,var(--c-ink) 45%,transparent)}
+.fx-signup-sheet .tb span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--f-serif);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--c-ink);margin-top:22px;white-space:nowrap}

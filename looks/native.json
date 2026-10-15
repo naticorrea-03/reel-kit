@@ -1,0 +1,77 @@
+{
+ "id": "native",
+ "name": "Native",
+ "summary": "Feed-native creator style. True-to-life grade, white box captions that fill in word by word, heavy caps hooks with an orange italic serif accent, stickers and popups.",
+ "vars": {
+  "--c-text": "#FFFFFF",
+  "--c-accent": "#F49B4C",
+  "--c-accent2": "#2F6BFF",
+  "--c-ink": "#111111",
+  "--c-card": "#FFFFFF",
+  "--c-muted": "#8E8E93",
+  "--c-soft": "#F2F2F4",
+  "--c-tint": "#FFF0E3",
+  "--c-shadow": "#000000",
+  "--c-behind": "var(--c-text)",
+  "--c-on-accent": "#111111",
+  "--c-accent-ink": "#D2621B",
+  "--c-frame": "rgba(0,0,0,.08)",
+  "--f-display": "'Inter Tight'",
+  "--f-serif": "'Fraunces'",
+  "--f-body": "'Inter'",
+  "--f-script": "'Caveat'",
+  "--f-mono": "'JetBrains Mono'",
+  "--serif-style": "italic",
+  "--serif-weight": "500",
+  "--serif-case": "none",
+  "--behind-weight": "900",
+  "--hook-case": "uppercase",
+  "--hook-small-font": "var(--f-display)",
+  "--hook-small-style": "normal",
+  "--cap-box-bg": "#FFFFFF",
+  "--cap-box-ink": "#111111",
+  "--cap-box-on": "#111111",
+  "--cap-box-dim": "#A6A6AB",
+  "--cap-box-font": "var(--f-body)",
+  "--cap-box-weight": "600",
+  "--cap-box-radius": ".26em",
+  "--cap-box-shadow": "0 4px 18px rgba(0,0,0,.16)",
+  "--card-radius": "22px",
+  "--card-border": "0px",
+  "--card-shadow": "0 12px 36px rgba(0,0,0,.22)",
+  "--c-highlight": "rgba(244,155,76,.38)"
+ },
+ "grade": "saturate(1.03) contrast(1.03) brightness(1.01)",
+ "overlays": {
+  "warm": false,
+  "vignette": 0.1,
+  "grad": 0.3
+ },
+ "captions": {
+  "style": "box",
+  "size": 50,
+  "case": "as-is",
+  "words_per_cue": 5,
+  "max_chars": 26,
+  "top": 1250,
+  "fill": true
+ },
+ "hook": {
+  "style": "mixed",
+  "small": "display-upper",
+  "big": "serif-italic"
+ },
+ "punch": "scale",
+ "cut_punch": 1.06,
+ "css": [
+  ".fx-serif .sv-s{font-family:var(--f-display);font-weight:900;text-transform:uppercase;letter-spacing:-1px;font-size:64px}",
+  ".fx-serif .sv-b{color:var(--c-accent)}",
+  ".fx-serif.on-light .sv-b{color:var(--c-accent-ink)}"
+ ],
+ "default_effects": [
+  "sticker",
+  "popup-comment",
+  "tag",
+  "cta"
+ ]
+}

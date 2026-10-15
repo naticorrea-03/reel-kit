@@ -1,0 +1,12 @@
+.fx-carousel-3d .cy{position:absolute;width:0;height:0;perspective-origin:0 0}
+.fx-carousel-3d .cr{position:absolute;display:flex;flex-direction:column;gap:.3em;padding:28px 30px;border-radius:calc(var(--card-radius) * .8);
+  background:var(--c-card);color:var(--c-ink);border:calc(var(--card-border) * .5) solid var(--c-frame);
+  box-shadow:0 26px 60px color-mix(in srgb,var(--c-shadow) 40%,transparent);backface-visibility:hidden;will-change:transform,opacity;overflow:hidden}
+.fx-carousel-3d .cr.v1{background:linear-gradient(160deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 70%,var(--c-ink)));color:var(--c-text)}
+.fx-carousel-3d .cr.v2{background:var(--c-soft)}
+.fx-carousel-3d .cr.v3{background:linear-gradient(160deg,var(--c-accent2),color-mix(in srgb,var(--c-accent2) 70%,var(--c-ink)));color:var(--c-text)}
+.fx-carousel-3d .kk{font-family:var(--f-mono);font-weight:600;letter-spacing:.06em;color:var(--c-accent-ink)}
+.fx-carousel-3d .cr.v1 .kk,.fx-carousel-3d .cr.v3 .kk{color:color-mix(in srgb,currentColor 80%,transparent)}
+.fx-carousel-3d .tt{font-family:var(--f-display);font-weight:800;line-height:1.04;letter-spacing:-.025em;overflow-wrap:anywhere}
+.fx-carousel-3d .sb{font-family:var(--f-body);font-weight:500;line-height:1.22;overflow-wrap:anywhere}
+.fx-carousel-3d .vl{position:absolute;inset:0;background:var(--c-shadow);opacity:0;pointer-events:none}

@@ -1,0 +1,6 @@
+.fx-film-strip{position:absolute;inset:0}
+.fx-film-strip .gr{position:absolute;top:0;bottom:0;left:64px;right:64px;-webkit-backdrop-filter:sepia(.38) saturate(.85) contrast(.9) brightness(1.03);backdrop-filter:sepia(.38) saturate(.85) contrast(.9) brightness(1.03);
+  background-image:none}
+.fx-film-strip .gr::after{content:'';position:absolute;inset:0;background:color-mix(in srgb,var(--c-accent) 30%,#ffb066);mix-blend-mode:soft-light;opacity:.32}
+.fx-film-strip .ds{position:absolute;font-family:var(--f-mono);font-weight:600;letter-spacing:.06em;line-height:1.3;white-space:nowrap;
+  color:color-mix(in srgb,var(--c-accent) 40%,#ffb347)}

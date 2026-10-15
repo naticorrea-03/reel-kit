@@ -1,0 +1,12 @@
+.fx-popup-follow{background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);
+  box-shadow:var(--card-shadow);padding:32px;font-family:var(--f-body)}
+.fx-popup-follow .top{display:flex;align-items:center;gap:24px}
+.fx-popup-follow .av{width:112px;height:112px;border-radius:50%;flex:none;object-fit:cover}
+.fx-popup-follow .av.txt{display:flex;align-items:center;justify-content:center;background:var(--c-accent2);color:var(--c-text);font-family:var(--f-display);font-weight:700;font-size:52px}
+.fx-popup-follow .id{min-width:0}
+.fx-popup-follow .nm{font-family:var(--f-display);font-weight:700;line-height:1.2;letter-spacing:-.5px;white-space:nowrap}
+.fx-popup-follow .sm{font-weight:500;font-size:30px;line-height:1.35;color:var(--c-muted);white-space:nowrap}
+.fx-popup-follow .btn{position:relative;height:80px;margin-top:24px}
+.fx-popup-follow .b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;border-radius:18px;font-weight:600;font-size:34px}
+.fx-popup-follow .b.on{background:var(--c-accent);color:var(--c-on-accent)}
+.fx-popup-follow .b.off{background:var(--c-soft);color:var(--c-ink)}

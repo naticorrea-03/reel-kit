@@ -1,0 +1,8 @@
+.fx-keycap-rain{position:relative}
+.fx-keycap-rain .kc{position:absolute;height:96px;box-sizing:border-box;border-radius:16px;transform:rotate(var(--r));transform-origin:50% 100%;
+  background:linear-gradient(180deg,var(--c-card),color-mix(in srgb,var(--c-card) 88%,var(--c-ink)));color:var(--c-ink);
+  box-shadow:0 7px 0 color-mix(in srgb,var(--c-card) 70%,var(--c-ink)),0 14px 22px color-mix(in srgb,var(--c-shadow) 35%,transparent);
+  display:flex;align-items:center;justify-content:center;padding-bottom:6px}
+.fx-keycap-rain .kc.dk{background:linear-gradient(180deg,color-mix(in srgb,var(--c-accent2) 85%,var(--c-card)),var(--c-accent2));color:var(--c-text);
+  box-shadow:0 7px 0 color-mix(in srgb,var(--c-accent2) 70%,var(--c-ink)),0 14px 22px color-mix(in srgb,var(--c-shadow) 35%,transparent)}
+.fx-keycap-rain .kc span{font-family:var(--f-body);font-weight:600;line-height:1;white-space:nowrap}

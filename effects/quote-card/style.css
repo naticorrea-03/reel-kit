@@ -1,0 +1,7 @@
+.fx-quote-card{background:var(--c-card);color:var(--c-ink);border-radius:var(--card-radius);border:var(--card-border) solid var(--c-frame);box-shadow:var(--card-shadow);padding:44px 48px}
+.fx-quote-card .mk{font-family:var(--f-serif);font-weight:700;font-size:150px;line-height:.62;height:78px;color:var(--c-accent-ink)}
+.fx-quote-card .qt{font-family:var(--f-serif);font-style:var(--serif-style);font-weight:var(--serif-weight);line-height:1.22;letter-spacing:-.5px;overflow-wrap:anywhere}
+.fx-quote-card .by{display:flex;align-items:center;gap:22px;margin-top:30px;font-family:var(--f-body)}
+.fx-quote-card .by i{display:block;width:48px;height:4px;border-radius:2px;background:var(--c-accent);flex:none}
+.fx-quote-card .nm{font-weight:600;line-height:1.3}
+.fx-quote-card .ro{font-weight:500;line-height:1.3;color:var(--c-muted)}

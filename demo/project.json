@@ -1,0 +1,7 @@
+{
+ "source": "footage/demo-talk.mp4",
+ "speakers": {"A": {"name": "Alex Rivera", "role": "Founder, Inbox Studio", "side": "left"}},
+ "eyebrow": "reel-kit demo",
+ "caption_pairs": [["chat", "gpt", "ChatGPT"]],
+ "caption_fixes": {"gpt": "GPT"}
+}

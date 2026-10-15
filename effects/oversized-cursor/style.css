@@ -1,0 +1,6 @@
+.fx-oversized-cursor{position:relative}
+.fx-oversized-cursor .btn{position:absolute;left:0;top:0;display:grid;place-items:center;border-radius:999px;background:var(--c-accent);color:var(--c-on-accent);
+  font-family:var(--f-display);font-weight:700;letter-spacing:-.01em;box-shadow:0 18px 44px color-mix(in srgb,var(--c-shadow) 40%,transparent)}
+.fx-oversized-cursor .btn span{grid-area:1/1;white-space:nowrap;line-height:1.25}
+.fx-oversized-cursor .cw{position:absolute;transform-origin:6px 4px}
+.fx-oversized-cursor .cur{display:block;filter:drop-shadow(0 8px 14px color-mix(in srgb,var(--c-shadow) 45%,transparent))}

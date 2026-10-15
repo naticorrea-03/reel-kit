@@ -1,0 +1,7 @@
+.fx-masonry-board{position:relative;border-radius:var(--card-radius);background:var(--c-card);box-shadow:var(--card-shadow)}
+.fx-masonry-board .vp{position:absolute;inset:0;border-radius:var(--card-radius);overflow:hidden}
+.fx-masonry-board .col{position:absolute;top:84px;background-repeat:no-repeat;border-radius:12px}
+
+.fx-masonry-board .tl{position:absolute;left:0;right:0;border-radius:14px;background-size:cover;background-position:center}
+.fx-masonry-board .pill{position:absolute;left:50%;top:14px;transform:translateX(-50%);white-space:nowrap;background:var(--c-accent);color:var(--c-on-accent);
+  font-family:var(--f-display);font-weight:700;font-size:40px;line-height:1.2;padding:8px 22px;border-radius:999px;box-shadow:var(--card-shadow)}

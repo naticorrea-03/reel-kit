@@ -1,0 +1,1 @@
+{"said": "every morning it pings me with a pep talk and then my to-do list", "graphic": {"type": "notification-stack", "on": "every morning", "items": [{"title": "Coach", "text": "Morning. Big day, small steps.", "time": "7:00 AM", "icon": "C"}, {"title": "Coach", "text": "Today: gym, send the deck, call mom", "time": "7:00 AM", "icon": "C", "on": "to-do"}]}}

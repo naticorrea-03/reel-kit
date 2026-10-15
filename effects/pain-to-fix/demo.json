@@ -1,0 +1,5 @@
+{"said": "my phone was pinging all day, Slack, email, the group chat, so now I get one summary at five", "graphic": {"type": "pain-to-fix", "on": "pinging all day", "step": 0.2, "count": "47",
+ "before": [{"app": "Slack", "title": "Slack", "text": "Quick question about Q3"}, {"app": "Mail", "title": "Mail", "text": "Re: Re: Re: invoice"},
+            {"app": "Group", "title": "Group chat", "text": "who is bringing ice??"}, {"app": "Calendar", "title": "Calendar", "text": "Standup moved to 9:15"},
+            {"app": "Slack", "title": "Slack", "text": "Can you take a look?"}],
+ "fix_on": "one summary", "after": {"title": "Your 5 p.m. summary", "rows": ["2 replies need you", "Standup is 9:15", "Ice is covered"]}, "hold": 1.6}}

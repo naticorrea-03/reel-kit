@@ -1,0 +1,4 @@
+.fx-note{position:relative}
+.fx-note .note{font-family:var(--f-script);font-weight:600;font-size:84px;color:var(--c-text);text-shadow:0 3px 16px color-mix(in srgb,var(--c-shadow) 80%,transparent);transform-origin:0 50%}
+.fx-note .arr{display:block}
+.fx-note .arr path{fill:none;stroke:var(--c-text);stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 6px color-mix(in srgb,var(--c-shadow) 70%,transparent))}

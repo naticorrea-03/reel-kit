@@ -1,0 +1,5 @@
+.fx-list-card{padding:20px 26px 18px}
+.fx-list-card .win-h{font-family:var(--f-serif);font-style:italic;font-weight:400;font-size:44px;color:var(--c-accent-ink);margin-bottom:12px}
+.fx-list-card .brd-row{display:flex;flex-wrap:wrap;gap:12px}
+.fx-list-card .brd-i{font-family:var(--f-display);font-weight:700;font-size:34px;letter-spacing:-.4px;padding:10px 20px;border-radius:999px;background:var(--c-tint);color:var(--c-ink)}
+.fx-list-card .win-src{font-family:var(--f-body);font-weight:500;font-size:28px;color:var(--c-muted);margin-top:12px}

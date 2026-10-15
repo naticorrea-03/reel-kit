@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1240" width="600" height="1240">
+<rect width="600" height="1240" fill="#FFFFFF"/>
+<text x="40" y="128" font-family="Helvetica, Arial" font-weight="600" font-size="28" letter-spacing="3" fill="#8A8A8A">STUDIO NINE</text>
+<text x="40" y="190" font-family="Helvetica, Arial" font-weight="700" font-size="54" fill="#141414">Book a class</text>
+<g font-family="Helvetica, Arial" text-anchor="middle">
+<rect x="40" y="236" width="94" height="120" rx="24" fill="#F2F0EC"/><text x="87" y="282" font-size="26" fill="#8A8A8A">MON</text><text x="87" y="328" font-size="38" font-weight="700" fill="#141414">12</text>
+<rect x="148" y="236" width="94" height="120" rx="24" fill="#F2F0EC"/><text x="195" y="282" font-size="26" fill="#8A8A8A">TUE</text><text x="195" y="328" font-size="38" font-weight="700" fill="#141414">13</text>
+<rect x="256" y="236" width="94" height="120" rx="24" fill="#F2F0EC"/><text x="303" y="282" font-size="26" fill="#8A8A8A">WED</text><text x="303" y="328" font-size="38" font-weight="700" fill="#141414">14</text>
+<rect x="364" y="236" width="94" height="120" rx="24" fill="#141414"/><text x="411" y="282" font-size="26" fill="#BDBDBD">THU</text><text x="411" y="328" font-size="38" font-weight="700" fill="#FFFFFF">15</text>
+<rect x="472" y="236" width="94" height="120" rx="24" fill="#F2F0EC"/><text x="519" y="282" font-size="26" fill="#8A8A8A">FRI</text><text x="519" y="328" font-size="38" font-weight="700" fill="#141414">16</text>
+</g>
+<g font-family="Helvetica, Arial">
+<rect x="40" y="400" width="520" height="140" rx="26" fill="#F2F0EC"/><text x="72" y="462" font-size="34" font-weight="700" fill="#141414">7:00</text><text x="190" y="462" font-size="34" font-weight="600" fill="#141414">Sculpt</text><text x="190" y="504" font-size="28" fill="#8A8A8A">45 min · 4 spots left</text>
+<rect x="40" y="560" width="520" height="140" rx="26" fill="#F2F0EC"/><text x="72" y="622" font-size="34" font-weight="700" fill="#141414">8:15</text><text x="190" y="622" font-size="34" font-weight="600" fill="#141414">Pilates</text><text x="190" y="664" font-size="28" fill="#8A8A8A">50 min · 2 spots left</text>
+<rect x="40" y="720" width="520" height="140" rx="26" fill="#F2F0EC"/><text x="72" y="782" font-size="34" font-weight="700" fill="#141414">12:00</text><text x="190" y="782" font-size="34" font-weight="600" fill="#141414">Spin</text><text x="190" y="824" font-size="28" fill="#8A8A8A">45 min · full</text>
+<rect x="40" y="880" width="520" height="140" rx="26" fill="#F2F0EC"/><text x="72" y="942" font-size="34" font-weight="700" fill="#141414">18:30</text><text x="190" y="942" font-size="34" font-weight="600" fill="#141414">Stretch</text><text x="190" y="984" font-size="28" fill="#8A8A8A">30 min · 9 spots left</text>
+<rect x="40" y="1080" width="520" height="104" rx="52" fill="#141414"/><text x="300" y="1144" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">Book</text>
+</g>
+</svg>

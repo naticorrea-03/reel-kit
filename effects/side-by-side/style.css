@@ -1,0 +1,4 @@
+.fx-side-by-side{display:flex;align-items:center;gap:14px}
+.fx-side-by-side .rk-win.mini{width:410px;padding:22px 24px}
+.fx-side-by-side .sbq{font-size:30px;padding:12px 18px;margin:16px 0 4px auto}
+.fx-side-by-side .vs{font-family:var(--f-serif);font-style:italic;font-size:60px;color:var(--c-text);text-shadow:0 3px 16px color-mix(in srgb,var(--c-shadow) 80%,transparent)}

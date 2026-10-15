@@ -1,0 +1,1 @@
+{"said": "sites I love go in one folder for my assistant", "graphic": {"type": "folder-collect", "on": "sites I love", "shots": ["fc-site-1.svg", "fc-site-2.svg", "fc-site-3.svg", "fc-site-4.svg"], "folder": "design-taste/", "drop_on": "one folder", "app": {"name": "Assistant", "on": "assistant", "icon": "fc-app.svg"}, "hold": 0.8}}

@@ -1,0 +1,6 @@
+.fx-notification-stack .ios{background:color-mix(in srgb,var(--c-card) 94%,transparent);border-radius:34px;padding:22px 28px 26px;box-shadow:0 24px 60px rgba(0,0,0,.35);margin-bottom:16px;width:860px}
+.fx-notification-stack .ios-h{display:flex;align-items:center;gap:14px;font-family:var(--f-body);font-weight:600;font-size:28px;color:var(--c-ink)}
+.fx-notification-stack .ios-ic{width:52px;height:52px;border-radius:14px;background:var(--c-accent);color:var(--c-on-accent);display:inline-flex;align-items:center;justify-content:center;font-size:30px;overflow:hidden}
+.fx-notification-stack .ios-ic img{width:100%;height:100%;object-fit:cover}
+.fx-notification-stack .ios-t{margin-left:auto;font-family:var(--f-body);font-weight:500;font-size:28px;color:var(--c-muted)}
+.fx-notification-stack .ios-b{font-family:var(--f-body);font-weight:500;font-size:34px;line-height:1.35;margin-top:10px;color:var(--c-ink)}

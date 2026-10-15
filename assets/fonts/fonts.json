@@ -1,0 +1,13 @@
+{
+ "note": "Fonts the engine loads with @font-face. All SIL Open Font License. Add your own by listing them here or in profile.json brand.font_files.",
+ "fonts": [
+  {"family": "Fraunces", "file": "Fraunces-Variable-Latin.woff2", "weight": "100 900"},
+  {"family": "Inter Tight", "file": "InterTight-Variable-Latin.woff2", "weight": "100 900"},
+  {"family": "Inter", "file": "Inter-500-normal.woff2", "weight": "500"},
+  {"family": "Inter", "file": "Inter-600-normal.woff2", "weight": "600"},
+  {"family": "Caveat", "file": "Caveat-600-normal.woff2", "weight": "600"},
+  {"family": "JetBrains Mono", "file": "JetBrainsMono-500-normal.woff2", "weight": "500"},
+  {"family": "Noto Serif Display", "file": "NotoSerifDisplay-Variable-Latin.woff2", "weight": "100 900", "stretch": "62.5% 100%"},
+  {"family": "Noto Serif Display", "file": "NotoSerifDisplay-Italic-Variable-Latin.woff2", "weight": "100 900", "stretch": "62.5% 100%", "style": "italic"}
+ ]
+}

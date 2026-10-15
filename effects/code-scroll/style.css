@@ -1,0 +1,16 @@
+.fx-code-scroll{perspective:1600px}
+.fx-code-scroll .ed{border-radius:calc(var(--card-radius) * .8);background:color-mix(in srgb,var(--c-ink) 96%,var(--c-accent2));color:color-mix(in srgb,var(--c-text) 86%,transparent);
+  border:1.5px solid color-mix(in srgb,var(--c-text) 14%,transparent);box-shadow:0 40px 90px color-mix(in srgb,var(--c-shadow) 60%,transparent)}
+.fx-code-scroll .bar{display:flex;align-items:center;gap:22px;height:64px;padding:0 22px;border-bottom:1.5px solid color-mix(in srgb,var(--c-text) 10%,transparent)}
+.fx-code-scroll .dots{display:flex;gap:10px}
+.fx-code-scroll .dots i{width:16px;height:16px;border-radius:50%;background:color-mix(in srgb,var(--c-text) 22%,transparent)}
+.fx-code-scroll .tab{font-family:var(--f-mono);font-size:28px;padding:6px 16px;border-radius:10px;background:color-mix(in srgb,var(--c-text) 8%,transparent);color:var(--c-text);white-space:nowrap}
+.fx-code-scroll .vp{position:relative;padding:22px 22px;
+  -webkit-mask-image:linear-gradient(transparent,var(--c-ink) 30px,var(--c-ink) calc(100% - 30px),transparent);mask-image:linear-gradient(transparent,var(--c-ink) 30px,var(--c-ink) calc(100% - 30px),transparent)}
+.fx-code-scroll .ln{display:flex;height:50px;align-items:center;font-family:var(--f-mono);font-size:34px;white-space:pre}
+.fx-code-scroll .no{width:70px;flex:none;padding-right:20px;text-align:right;color:color-mix(in srgb,var(--c-text) 32%,transparent);font-size:30px}
+.fx-code-scroll .h{color:color-mix(in srgb,var(--c-accent) 50%,var(--c-text));font-weight:500}
+.fx-code-scroll .k{color:color-mix(in srgb,var(--c-accent2) 45%,var(--c-text))}
+.fx-code-scroll .m{color:color-mix(in srgb,var(--c-text) 45%,transparent)}
+.fx-code-scroll .b{color:var(--c-text)}
+.fx-code-scroll .c{color:color-mix(in srgb,var(--c-accent2) 35%,var(--c-text));background:color-mix(in srgb,var(--c-text) 8%,transparent);border-radius:6px}

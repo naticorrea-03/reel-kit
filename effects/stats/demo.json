@@ -1,0 +1,1 @@
+{"said": "we hit 40 clients and $12 million in sales in the first year", "graphic": {"type": "stats", "on": "40 clients", "items": [{"on": "40 clients", "to": 40, "label": "clients"}, {"on": "12 million", "to": 12, "prefix": "$", "suffix": "M", "label": "in sales"}]}}

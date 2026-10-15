@@ -1,0 +1,7 @@
+.fx-slot-number{display:flex;flex-direction:column;align-items:center}
+.fx-slot-number .nm{display:flex;justify-content:center;line-height:1}
+.fx-slot-number .cell{display:block;overflow:hidden}
+.fx-slot-number text{font-family:var(--f-serif);font-weight:400;font-size:var(--sz);letter-spacing:-.02em;fill:var(--ink)}
+.fx-slot-number.light .cell{filter:drop-shadow(0 4px 18px color-mix(in srgb,var(--c-shadow) 55%,transparent))}
+.fx-slot-number .un{font-family:var(--f-serif);font-style:italic;font-weight:500;line-height:1.1;margin-top:-.04em;color:var(--c-accent-ink)}
+.fx-slot-number.light .un{color:color-mix(in srgb,var(--c-accent) 45%,var(--c-text))}

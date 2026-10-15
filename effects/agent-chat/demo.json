@@ -1,0 +1,1 @@
+{"said": "I tell my agent Sam try this, look at this, then build this", "graphic": {"type": "agent-chat", "on": "my agent", "name": "Sam", "role": "agent", "messages": [{"from": "me", "text": "try this.", "on": "try this"}, {"from": "me", "text": "look at this.", "on": "look at this"}, {"from": "me", "text": "build this.", "on": "build this"}]}}

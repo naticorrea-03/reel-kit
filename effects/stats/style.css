@@ -1,0 +1,6 @@
+.fx-stats{display:flex;flex-wrap:wrap;gap:14px;width:900px}
+.fx-stats .stat{display:flex;align-items:baseline;gap:14px;background:var(--c-accent2);color:var(--c-text);border-radius:26px;padding:14px 26px 16px;
+  box-shadow:0 14px 34px rgba(0,0,0,.35);width:max-content}
+.fx-stats .num{font-family:var(--f-serif);font-weight:var(--serif-weight);font-size:84px;line-height:1;letter-spacing:-2px;font-variation-settings:"opsz" 144}
+.fx-stats .lab{font-family:var(--f-display);font-weight:600;font-size:32px;letter-spacing:-.3px}
+.fx-stats .stat.chip{background:var(--c-accent);color:var(--c-on-accent);padding:16px 26px}

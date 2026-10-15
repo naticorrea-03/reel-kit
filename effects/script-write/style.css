@@ -1,0 +1,9 @@
+.fx-script-write{display:flex;flex-direction:column;align-items:flex-start;gap:.25em;font-family:var(--f-script);font-weight:600;line-height:1}
+.fx-script-write .rw{display:flex;align-items:center;gap:16px;white-space:nowrap}
+.fx-script-write .tx{display:inline-block;padding:.06em .3em .1em 0;
+  -webkit-mask-image:linear-gradient(90deg,#000 var(--p),transparent calc(var(--p) + 6%));mask-image:linear-gradient(90deg,#000 var(--p),transparent calc(var(--p) + 6%))}
+.fx-script-write.light .tx{text-shadow:0 2px 12px color-mix(in srgb,var(--c-shadow) 75%,transparent)}
+.fx-script-write .tk{flex:none;fill:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.fx-script-write .tk.cross{stroke:var(--c-accent)}
+.fx-script-write .tk.check{stroke:var(--c-accent2)}
+.fx-script-write .sp{flex:none;display:block;height:1px}

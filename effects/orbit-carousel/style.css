@@ -1,0 +1,17 @@
+.fx-orbit-carousel .tl{position:absolute;transform-origin:50% 50%;will-change:transform,opacity}
+.fx-orbit-carousel .cd{position:absolute;inset:0;border-radius:26px;overflow:hidden;background:var(--c-card);
+  border:5px solid color-mix(in srgb,var(--c-card) 88%,var(--c-ink));box-shadow:0 26px 54px color-mix(in srgb,var(--c-shadow) 48%,transparent)}
+.fx-orbit-carousel .im{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.fx-orbit-carousel .lb{position:absolute;left:0;right:0;bottom:0;padding:22% 8% 9%;background:linear-gradient(180deg,transparent,color-mix(in srgb,var(--c-shadow) 78%,transparent))}
+.fx-orbit-carousel .lt{color:var(--c-text);font-family:var(--f-display);font-weight:800;line-height:1.04;letter-spacing:-.02em;overflow-wrap:anywhere}
+.fx-orbit-carousel .tg{position:absolute;inset:0;padding:9% 8%;display:flex;flex-direction:column;gap:.35em;color:var(--c-text)}
+.fx-orbit-carousel .tg.v0{background:var(--c-card);color:var(--c-ink)}
+.fx-orbit-carousel .tg.v1{background:linear-gradient(160deg,var(--c-accent),color-mix(in srgb,var(--c-accent) 70%,var(--c-ink)))}
+.fx-orbit-carousel .tg.v2{background:var(--c-soft);color:var(--c-ink)}
+.fx-orbit-carousel .tg.v3{background:linear-gradient(160deg,var(--c-accent2),color-mix(in srgb,var(--c-accent2) 70%,var(--c-ink)))}
+.fx-orbit-carousel .tg.v0 .kk,.fx-orbit-carousel .tg.v2 .kk{color:var(--c-accent-ink)}
+.fx-orbit-carousel .kk{font-family:var(--f-mono);font-weight:600;letter-spacing:.06em;color:color-mix(in srgb,currentColor 75%,transparent)}
+.fx-orbit-carousel .tt{font-family:var(--f-display);font-weight:800;line-height:1.02;letter-spacing:-.025em;margin-top:auto;overflow-wrap:anywhere}
+.fx-orbit-carousel .sb{font-family:var(--f-body);font-weight:500;line-height:1.2;color:color-mix(in srgb,currentColor 85%,transparent);overflow-wrap:anywhere}
+.fx-orbit-carousel .vl{position:absolute;inset:0;border-radius:calc(var(--card-radius) * .7);background:var(--c-shadow);opacity:0;pointer-events:none}
+.fx-orbit-carousel .far rect{fill:currentColor;opacity:.32}
